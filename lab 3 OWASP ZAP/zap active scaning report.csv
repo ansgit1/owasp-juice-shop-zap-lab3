@@ -1,0 +1,1001 @@
+ID,Req. Timestamp,Resp. Timestamp,Method,URL,Code,Reason,RTT,Size Resp. Header,Size Resp. Body
+6383,Thu Oct 09 23:25:37 IST 2025,Thu Oct 09 23:25:37 IST 2025,GET,http://192.168.8.101:3000/api/Challenges/?name=,200,OK,142,384,30
+6385,Thu Oct 09 23:25:37 IST 2025,Thu Oct 09 23:25:38 IST 2025,GET,http://192.168.8.101:3000/api/Challenges/?name=%40,200,OK,145,384,30
+6386,Thu Oct 09 23:25:38 IST 2025,Thu Oct 09 23:25:38 IST 2025,GET,http://192.168.8.101:3000/api/Challenges/?name=%2B,200,OK,142,384,30
+6387,Thu Oct 09 23:25:38 IST 2025,Thu Oct 09 23:25:38 IST 2025,GET,http://192.168.8.101:3000/api/Challenges/?name=%00,500,Internal Server Error,132,403,81
+6388,Thu Oct 09 23:25:38 IST 2025,Thu Oct 09 23:25:38 IST 2025,GET,http://192.168.8.101:3000/api/Challenges/?name=%7C,200,OK,125,384,30
+6389,Thu Oct 09 23:25:38 IST 2025,Thu Oct 09 23:25:38 IST 2025,GET,http://192.168.8.101:3000/rest,500,Internal Server Error,22,363,1825
+6390,Thu Oct 09 23:25:38 IST 2025,Thu Oct 09 23:25:38 IST 2025,GET,http://192.168.8.101:3000/rest/admin,500,Internal Server Error,89,363,1837
+6391,Thu Oct 09 23:25:38 IST 2025,Thu Oct 09 23:25:38 IST 2025,GET,http://192.168.8.101:3000/rest/products,500,Internal Server Error,19,363,1843
+6392,Thu Oct 09 23:25:38 IST 2025,Thu Oct 09 23:25:38 IST 2025,GET,http://192.168.8.101:3000/rest/products/1,500,Internal Server Error,44,363,1847
+6393,Thu Oct 09 23:25:39 IST 2025,Thu Oct 09 23:25:39 IST 2025,GET,http://192.168.8.101:3000/rest/user,500,Internal Server Error,30,363,1835
+6394,Thu Oct 09 23:25:39 IST 2025,Thu Oct 09 23:25:39 IST 2025,GET,http://192.168.8.101:3000/rest/products/search?q=,200,OK,148,389,13644
+6395,Thu Oct 09 23:25:39 IST 2025,Thu Oct 09 23:25:39 IST 2025,GET,http://192.168.8.101:3000/socket.io,200,OK,70,469,75002
+6396,Thu Oct 09 23:25:39 IST 2025,Thu Oct 09 23:25:39 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKj-&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,56,230,41
+6397,Thu Oct 09 23:25:39 IST 2025,Thu Oct 09 23:25:39 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKhr,200,OK,38,230,96
+6398,Thu Oct 09 23:25:39 IST 2025,Thu Oct 09 23:25:39 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=websocket&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,67,92,18
+6399,Thu Oct 09 23:25:39 IST 2025,Thu Oct 09 23:25:39 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKj-&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,68,230,41
+6401,Thu Oct 09 23:25:39 IST 2025,Thu Oct 09 23:25:39 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKj-&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,24,230,41
+6400,Thu Oct 09 23:25:39 IST 2025,Thu Oct 09 23:25:39 IST 2025,GET,http://192.168.8.101:3000/rest/products/search?=,200,OK,270,389,13644
+6402,Thu Oct 09 23:25:39 IST 2025,Thu Oct 09 23:25:39 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=websocket&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,29,92,18
+6403,Thu Oct 09 23:25:39 IST 2025,Thu Oct 09 23:25:39 IST 2025,GET,http://192.168.8.101:3000/socket.io/?=&transport=polling&t=Pd9XKhr,200,OK,108,230,96
+6404,Thu Oct 09 23:25:39 IST 2025,Thu Oct 09 23:25:39 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=websocket&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,15,92,18
+6405,Thu Oct 09 23:25:39 IST 2025,Thu Oct 09 23:25:39 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKj-&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,66,230,41
+6406,Thu Oct 09 23:25:39 IST 2025,Thu Oct 09 23:25:39 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=&transport=polling&t=Pd9XKhr,200,OK,36,230,96
+6407,Thu Oct 09 23:25:39 IST 2025,Thu Oct 09 23:25:39 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=%40&transport=polling&t=Pd9XKhr,200,OK,6,230,96
+6408,Thu Oct 09 23:25:39 IST 2025,Thu Oct 09 23:25:39 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=%2B&transport=polling&t=Pd9XKhr,200,OK,3,230,96
+6409,Thu Oct 09 23:25:39 IST 2025,Thu Oct 09 23:25:39 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=%00&transport=polling&t=Pd9XKhr,200,OK,3,230,96
+6410,Thu Oct 09 23:25:39 IST 2025,Thu Oct 09 23:25:39 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=%7C&transport=polling&t=Pd9XKhr,200,OK,33,230,96
+6411,Thu Oct 09 23:25:39 IST 2025,Thu Oct 09 23:25:39 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKhr,200,OK,72,230,96
+6412,Thu Oct 09 23:25:39 IST 2025,Thu Oct 09 23:25:39 IST 2025,GET,http://192.168.8.101:3000/rest/products/search?q=,200,OK,208,389,13644
+6413,Thu Oct 09 23:25:39 IST 2025,Thu Oct 09 23:25:39 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&=&t=Pd9XKhr,400,Bad Request,17,230,40
+6414,Thu Oct 09 23:25:39 IST 2025,Thu Oct 09 23:25:39 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=&t=Pd9XKhr,400,Bad Request,24,230,40
+6415,Thu Oct 09 23:25:39 IST 2025,Thu Oct 09 23:25:39 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=%40&t=Pd9XKhr,400,Bad Request,35,230,40
+6416,Thu Oct 09 23:25:39 IST 2025,Thu Oct 09 23:25:39 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=%2B&t=Pd9XKhr,400,Bad Request,20,230,40
+6417,Thu Oct 09 23:25:39 IST 2025,Thu Oct 09 23:25:39 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=%00&t=Pd9XKhr,400,Bad Request,12,230,40
+6418,Thu Oct 09 23:25:39 IST 2025,Thu Oct 09 23:25:39 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=%7C&t=Pd9XKhr,400,Bad Request,11,230,40
+6419,Thu Oct 09 23:25:39 IST 2025,Thu Oct 09 23:25:39 IST 2025,GET,http://192.168.8.101:3000/rest/products/search?q=%40,200,OK,111,386,691
+6420,Thu Oct 09 23:25:39 IST 2025,Thu Oct 09 23:25:39 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKhr,200,OK,54,230,96
+6421,Thu Oct 09 23:25:39 IST 2025,Thu Oct 09 23:25:39 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&=,200,OK,9,230,96
+6422,Thu Oct 09 23:25:40 IST 2025,Thu Oct 09 23:25:40 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=,200,OK,13,230,96
+6423,Thu Oct 09 23:25:40 IST 2025,Thu Oct 09 23:25:40 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=%40,200,OK,13,230,96
+6424,Thu Oct 09 23:25:40 IST 2025,Thu Oct 09 23:25:40 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=%2B,200,OK,10,230,96
+6425,Thu Oct 09 23:25:40 IST 2025,Thu Oct 09 23:25:40 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=%00,200,OK,24,230,96
+6426,Thu Oct 09 23:25:39 IST 2025,Thu Oct 09 23:25:40 IST 2025,GET,http://192.168.8.101:3000/rest/products/search?q=%2B,200,OK,151,384,30
+6427,Thu Oct 09 23:25:40 IST 2025,Thu Oct 09 23:25:40 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=%7C,200,OK,29,230,96
+6428,Thu Oct 09 23:25:40 IST 2025,Thu Oct 09 23:25:40 IST 2025,GET,http://192.168.8.101:3000/rest/products/search?q=%00,500,Internal Server Error,114,362,321
+6429,Thu Oct 09 23:25:40 IST 2025,Thu Oct 09 23:25:40 IST 2025,GET,http://192.168.8.101:3000/rest/products/search?q=%7C,200,OK,104,384,30
+6430,Thu Oct 09 23:25:40 IST 2025,Thu Oct 09 23:25:40 IST 2025,GET,http://192.168.8.101:3000/elmah.axd,200,OK,41,469,75002
+6432,Thu Oct 09 23:25:40 IST 2025,Thu Oct 09 23:25:40 IST 2025,GET,http://192.168.8.101:3000/socket.io/trace.axd,400,Bad Request,93,230,40
+6431,Thu Oct 09 23:25:40 IST 2025,Thu Oct 09 23:25:40 IST 2025,GET,http://192.168.8.101:3000,200,OK,60,469,75002
+6433,Thu Oct 09 23:25:40 IST 2025,Thu Oct 09 23:25:40 IST 2025,GET,http://192.168.8.101:3000/api,500,Internal Server Error,100,363,1823
+6434,Thu Oct 09 23:25:40 IST 2025,Thu Oct 09 23:25:40 IST 2025,GET,http://192.168.8.101:3000/trace.axd,200,OK,142,469,75002
+6435,Thu Oct 09 23:25:40 IST 2025,Thu Oct 09 23:25:40 IST 2025,GET,http://192.168.8.101:3000/api/Challenges,200,OK,241,389,59080
+6436,Thu Oct 09 23:25:40 IST 2025,Thu Oct 09 23:25:40 IST 2025,GET,http://192.168.8.101:3000/api/trace.axd,500,Internal Server Error,29,363,1843
+6437,Thu Oct 09 23:25:40 IST 2025,Thu Oct 09 23:25:40 IST 2025,GET,http://192.168.8.101:3000/api/Challenges/trace.axd,401,Unauthorized,78,353,234
+6438,Thu Oct 09 23:25:40 IST 2025,Thu Oct 09 23:25:41 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys,304,Not Modified,271,306,0
+6439,Thu Oct 09 23:25:41 IST 2025,Thu Oct 09 23:25:41 IST 2025,GET,http://192.168.8.101:3000/assets,301,Moved Permanently,4,416,156
+6440,Thu Oct 09 23:25:41 IST 2025,Thu Oct 09 23:25:41 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys/trace.axd,403,Forbidden,7,391,39
+6441,Thu Oct 09 23:25:41 IST 2025,Thu Oct 09 23:25:41 IST 2025,GET,http://192.168.8.101:3000/assets/i18n,301,Moved Permanently,11,421,161
+6442,Thu Oct 09 23:25:41 IST 2025,Thu Oct 09 23:25:41 IST 2025,GET,http://192.168.8.101:3000/assets/public,301,Moved Permanently,24,423,163
+6443,Thu Oct 09 23:25:41 IST 2025,Thu Oct 09 23:25:41 IST 2025,GET,http://192.168.8.101:3000/assets/trace.axd,200,OK,32,469,75002
+6445,Thu Oct 09 23:25:41 IST 2025,Thu Oct 09 23:25:41 IST 2025,GET,http://192.168.8.101:3000/assets/public/images,301,Moved Permanently,10,430,170
+6444,Thu Oct 09 23:25:41 IST 2025,Thu Oct 09 23:25:41 IST 2025,GET,http://192.168.8.101:3000/assets/i18n/trace.axd,200,OK,52,469,75002
+6446,Thu Oct 09 23:25:41 IST 2025,Thu Oct 09 23:25:41 IST 2025,GET,http://192.168.8.101:3000/assets/public/trace.axd,200,OK,39,469,75002
+6447,Thu Oct 09 23:25:41 IST 2025,Thu Oct 09 23:25:41 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products,301,Moved Permanently,21,439,179
+6448,Thu Oct 09 23:25:41 IST 2025,Thu Oct 09 23:25:41 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/trace.axd,200,OK,74,469,75002
+6449,Thu Oct 09 23:25:41 IST 2025,Thu Oct 09 23:25:41 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/trace.axd,200,OK,58,469,75002
+6450,Thu Oct 09 23:25:41 IST 2025,Thu Oct 09 23:25:41 IST 2025,GET,http://192.168.8.101:3000/rest,500,Internal Server Error,27,363,1825
+6451,Thu Oct 09 23:25:41 IST 2025,Thu Oct 09 23:25:41 IST 2025,GET,http://192.168.8.101:3000/rest/admin,500,Internal Server Error,14,363,1837
+6452,Thu Oct 09 23:25:41 IST 2025,Thu Oct 09 23:25:41 IST 2025,GET,http://192.168.8.101:3000/rest/trace.axd,500,Internal Server Error,28,363,1845
+6453,Thu Oct 09 23:25:41 IST 2025,Thu Oct 09 23:25:41 IST 2025,GET,http://192.168.8.101:3000/rest/admin/trace.axd,500,Internal Server Error,78,363,1857
+6454,Thu Oct 09 23:25:41 IST 2025,Thu Oct 09 23:25:41 IST 2025,GET,http://192.168.8.101:3000/rest/products,500,Internal Server Error,94,363,1843
+6455,Thu Oct 09 23:25:41 IST 2025,Thu Oct 09 23:25:41 IST 2025,GET,http://192.168.8.101:3000/rest/products/1,500,Internal Server Error,23,363,1847
+6456,Thu Oct 09 23:25:41 IST 2025,Thu Oct 09 23:25:41 IST 2025,GET,http://192.168.8.101:3000/rest/products/trace.axd,500,Internal Server Error,13,363,1863
+6457,Thu Oct 09 23:25:41 IST 2025,Thu Oct 09 23:25:42 IST 2025,GET,http://192.168.8.101:3000/rest/products/1/trace.axd,500,Internal Server Error,44,363,1867
+6458,Thu Oct 09 23:25:41 IST 2025,Thu Oct 09 23:25:42 IST 2025,GET,http://192.168.8.101:3000/rest/user,500,Internal Server Error,116,363,1835
+6459,Thu Oct 09 23:25:42 IST 2025,Thu Oct 09 23:25:42 IST 2025,GET,http://192.168.8.101:3000/rest/user/trace.axd,500,Internal Server Error,29,363,1855
+6460,Thu Oct 09 23:25:42 IST 2025,Thu Oct 09 23:25:42 IST 2025,GET,http://192.168.8.101:3000/socket.io,200,OK,81,469,75002
+6462,Thu Oct 09 23:25:42 IST 2025,Thu Oct 09 23:25:42 IST 2025,GET,http://192.168.8.101:3000/socket.io/.htaccess,400,Bad Request,32,230,40
+6461,Thu Oct 09 23:25:42 IST 2025,Thu Oct 09 23:25:42 IST 2025,GET,http://192.168.8.101:3000,200,OK,13,469,75002
+6463,Thu Oct 09 23:25:42 IST 2025,Thu Oct 09 23:25:42 IST 2025,GET,http://192.168.8.101:3000/.htaccess,200,OK,100,469,75002
+6464,Thu Oct 09 23:25:42 IST 2025,Thu Oct 09 23:25:42 IST 2025,GET,http://192.168.8.101:3000/api,500,Internal Server Error,67,363,1823
+6465,Thu Oct 09 23:25:42 IST 2025,Thu Oct 09 23:25:43 IST 2025,GET,http://192.168.8.101:3000/api/Challenges,200,OK,812,389,59080
+6466,Thu Oct 09 23:25:43 IST 2025,Thu Oct 09 23:25:43 IST 2025,GET,http://192.168.8.101:3000/api/.htaccess,500,Internal Server Error,10,363,1843
+6467,Thu Oct 09 23:25:43 IST 2025,Thu Oct 09 23:25:43 IST 2025,GET,http://192.168.8.101:3000/api/Challenges/.htaccess,401,Unauthorized,64,353,234
+6468,Thu Oct 09 23:25:43 IST 2025,Thu Oct 09 23:25:43 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys,304,Not Modified,204,306,0
+6470,Thu Oct 09 23:25:43 IST 2025,Thu Oct 09 23:25:43 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys/.htaccess,403,Forbidden,11,391,39
+6469,Thu Oct 09 23:25:43 IST 2025,Thu Oct 09 23:25:43 IST 2025,GET,http://192.168.8.101:3000/assets,301,Moved Permanently,5,416,156
+6471,Thu Oct 09 23:25:43 IST 2025,Thu Oct 09 23:25:43 IST 2025,GET,http://192.168.8.101:3000/assets/i18n,301,Moved Permanently,6,421,161
+6472,Thu Oct 09 23:25:43 IST 2025,Thu Oct 09 23:25:43 IST 2025,GET,http://192.168.8.101:3000/assets/public,301,Moved Permanently,13,423,163
+6473,Thu Oct 09 23:25:43 IST 2025,Thu Oct 09 23:25:43 IST 2025,GET,http://192.168.8.101:3000/assets/.htaccess,200,OK,42,469,75002
+6474,Thu Oct 09 23:25:43 IST 2025,Thu Oct 09 23:25:43 IST 2025,GET,http://192.168.8.101:3000/assets/public/images,301,Moved Permanently,18,430,170
+6475,Thu Oct 09 23:25:43 IST 2025,Thu Oct 09 23:25:43 IST 2025,GET,http://192.168.8.101:3000/assets/i18n/.htaccess,200,OK,77,469,75002
+6476,Thu Oct 09 23:25:43 IST 2025,Thu Oct 09 23:25:43 IST 2025,GET,http://192.168.8.101:3000/assets/public/.htaccess,200,OK,97,469,75002
+6477,Thu Oct 09 23:25:43 IST 2025,Thu Oct 09 23:25:43 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products,301,Moved Permanently,6,439,179
+6478,Thu Oct 09 23:25:43 IST 2025,Thu Oct 09 23:25:43 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/.htaccess,200,OK,55,469,75002
+6479,Thu Oct 09 23:25:44 IST 2025,Thu Oct 09 23:25:44 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/.htaccess,200,OK,54,469,75002
+6480,Thu Oct 09 23:25:44 IST 2025,Thu Oct 09 23:25:44 IST 2025,GET,http://192.168.8.101:3000/rest,500,Internal Server Error,9,363,1825
+6481,Thu Oct 09 23:25:44 IST 2025,Thu Oct 09 23:25:44 IST 2025,GET,http://192.168.8.101:3000/rest/admin,500,Internal Server Error,50,363,1837
+6482,Thu Oct 09 23:25:44 IST 2025,Thu Oct 09 23:25:44 IST 2025,GET,http://192.168.8.101:3000/rest/.htaccess,500,Internal Server Error,30,363,1845
+6483,Thu Oct 09 23:25:44 IST 2025,Thu Oct 09 23:25:44 IST 2025,GET,http://192.168.8.101:3000/rest/admin/.htaccess,500,Internal Server Error,74,363,1857
+6484,Thu Oct 09 23:25:44 IST 2025,Thu Oct 09 23:25:44 IST 2025,GET,http://192.168.8.101:3000/rest/products,500,Internal Server Error,100,363,1843
+6485,Thu Oct 09 23:25:44 IST 2025,Thu Oct 09 23:25:44 IST 2025,GET,http://192.168.8.101:3000/rest/products/1,500,Internal Server Error,42,363,1847
+6486,Thu Oct 09 23:25:44 IST 2025,Thu Oct 09 23:25:44 IST 2025,GET,http://192.168.8.101:3000/rest/products/.htaccess,500,Internal Server Error,32,363,1863
+6487,Thu Oct 09 23:25:44 IST 2025,Thu Oct 09 23:25:44 IST 2025,GET,http://192.168.8.101:3000/rest/products/1/.htaccess,500,Internal Server Error,64,363,1867
+6488,Thu Oct 09 23:25:44 IST 2025,Thu Oct 09 23:25:44 IST 2025,GET,http://192.168.8.101:3000/rest/user,500,Internal Server Error,149,363,1835
+6489,Thu Oct 09 23:25:44 IST 2025,Thu Oct 09 23:25:44 IST 2025,GET,http://192.168.8.101:3000/rest/user/.htaccess,500,Internal Server Error,30,363,1855
+6490,Thu Oct 09 23:25:44 IST 2025,Thu Oct 09 23:25:44 IST 2025,GET,http://192.168.8.101:3000/socket.io,200,OK,96,469,75002
+6491,Thu Oct 09 23:25:44 IST 2025,Thu Oct 09 23:25:44 IST 2025,GET,http://192.168.8.101:3000/socket.io/.env,400,Bad Request,17,230,40
+6492,Thu Oct 09 23:25:44 IST 2025,Thu Oct 09 23:25:44 IST 2025,GET,http://192.168.8.101:3000,200,OK,11,469,75002
+6493,Thu Oct 09 23:25:45 IST 2025,Thu Oct 09 23:25:45 IST 2025,GET,http://192.168.8.101:3000/api,500,Internal Server Error,77,363,1823
+6494,Thu Oct 09 23:25:44 IST 2025,Thu Oct 09 23:25:45 IST 2025,GET,http://192.168.8.101:3000/.env,200,OK,127,469,75002
+6495,Thu Oct 09 23:25:45 IST 2025,Thu Oct 09 23:25:45 IST 2025,GET,http://192.168.8.101:3000/api/Challenges,200,OK,585,389,59080
+6496,Thu Oct 09 23:25:45 IST 2025,Thu Oct 09 23:25:45 IST 2025,GET,http://192.168.8.101:3000/api/.env,500,Internal Server Error,6,363,1833
+6497,Thu Oct 09 23:25:45 IST 2025,Thu Oct 09 23:25:45 IST 2025,GET,http://192.168.8.101:3000/api/Challenges/.env,401,Unauthorized,34,353,234
+6498,Thu Oct 09 23:25:45 IST 2025,Thu Oct 09 23:25:45 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys,304,Not Modified,178,306,0
+6499,Thu Oct 09 23:25:45 IST 2025,Thu Oct 09 23:25:45 IST 2025,GET,http://192.168.8.101:3000/assets,301,Moved Permanently,4,416,156
+6500,Thu Oct 09 23:25:45 IST 2025,Thu Oct 09 23:25:45 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys/.env,403,Forbidden,10,391,39
+6501,Thu Oct 09 23:25:45 IST 2025,Thu Oct 09 23:25:45 IST 2025,GET,http://192.168.8.101:3000/assets/i18n,301,Moved Permanently,5,421,161
+6502,Thu Oct 09 23:25:46 IST 2025,Thu Oct 09 23:25:46 IST 2025,GET,http://192.168.8.101:3000/assets/.env,200,OK,44,469,75002
+6503,Thu Oct 09 23:25:46 IST 2025,Thu Oct 09 23:25:46 IST 2025,GET,http://192.168.8.101:3000/assets/public,301,Moved Permanently,36,423,163
+6504,Thu Oct 09 23:25:46 IST 2025,Thu Oct 09 23:25:46 IST 2025,GET,http://192.168.8.101:3000/assets/i18n/.env,200,OK,101,469,75002
+6505,Thu Oct 09 23:25:46 IST 2025,Thu Oct 09 23:25:46 IST 2025,GET,http://192.168.8.101:3000/assets/public/images,301,Moved Permanently,16,430,170
+6506,Thu Oct 09 23:25:46 IST 2025,Thu Oct 09 23:25:46 IST 2025,GET,http://192.168.8.101:3000/assets/public/.env,200,OK,47,469,75002
+6507,Thu Oct 09 23:25:46 IST 2025,Thu Oct 09 23:25:46 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products,301,Moved Permanently,55,439,179
+6508,Thu Oct 09 23:25:46 IST 2025,Thu Oct 09 23:25:46 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/.env,200,OK,81,469,75002
+6509,Thu Oct 09 23:25:46 IST 2025,Thu Oct 09 23:25:46 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/.env,200,OK,60,469,75002
+6510,Thu Oct 09 23:25:46 IST 2025,Thu Oct 09 23:25:46 IST 2025,GET,http://192.168.8.101:3000/rest,500,Internal Server Error,23,363,1825
+6511,Thu Oct 09 23:25:46 IST 2025,Thu Oct 09 23:25:46 IST 2025,GET,http://192.168.8.101:3000/rest/admin,500,Internal Server Error,17,363,1837
+6512,Thu Oct 09 23:25:46 IST 2025,Thu Oct 09 23:25:46 IST 2025,GET,http://192.168.8.101:3000/rest/.env,500,Internal Server Error,15,363,1835
+6513,Thu Oct 09 23:25:46 IST 2025,Thu Oct 09 23:25:46 IST 2025,GET,http://192.168.8.101:3000/rest/admin/.env,500,Internal Server Error,43,363,1847
+6514,Thu Oct 09 23:25:46 IST 2025,Thu Oct 09 23:25:46 IST 2025,GET,http://192.168.8.101:3000/rest/products,500,Internal Server Error,41,363,1843
+6515,Thu Oct 09 23:25:46 IST 2025,Thu Oct 09 23:25:46 IST 2025,GET,http://192.168.8.101:3000/rest/products/1,500,Internal Server Error,57,363,1847
+6516,Thu Oct 09 23:25:46 IST 2025,Thu Oct 09 23:25:46 IST 2025,GET,http://192.168.8.101:3000/rest/products/.env,500,Internal Server Error,19,363,1853
+6517,Thu Oct 09 23:25:46 IST 2025,Thu Oct 09 23:25:46 IST 2025,GET,http://192.168.8.101:3000/rest/user,500,Internal Server Error,53,363,1835
+6518,Thu Oct 09 23:25:46 IST 2025,Thu Oct 09 23:25:47 IST 2025,GET,http://192.168.8.101:3000/rest/products/1/.env,500,Internal Server Error,141,363,1857
+6519,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,GET,http://192.168.8.101:3000/rest/user/.env,500,Internal Server Error,100,363,1845
+6520,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,GET,http://192.168.8.101:3000/socket.io,200,OK,134,469,75002
+6521,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,GET,http://192.168.8.101:3000/socket.io/lfm.php,400,Bad Request,3,230,40
+6522,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,GET,http://192.168.8.101:3000/socket.io/.idea/WebServers.xml,400,Bad Request,11,230,40
+6523,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,GET,http://192.168.8.101:3000/socket.io/config/databases.yml,400,Bad Request,13,230,40
+6524,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,GET,http://192.168.8.101:3000/socket.io/actuator/health,400,Bad Request,15,230,40
+6526,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,GET,http://192.168.8.101:3000/socket.io/actuator/health,400,Bad Request,44,230,40
+6525,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,GET,http://192.168.8.101:3000/socket.io/config/database.yml,400,Bad Request,35,230,40
+6527,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,GET,http://192.168.8.101:3000/socket.io/.git/config,400,Bad Request,13,230,40
+6528,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,GET,http://192.168.8.101:3000/socket.io/.svn/entries,400,Bad Request,3,230,40
+6529,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,GET,http://192.168.8.101:3000/socket.io/.svn/wc.db,400,Bad Request,10,230,40
+6530,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,GET,http://192.168.8.101:3000/socket.io/CVS/root,400,Bad Request,5,230,40
+6531,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,GET,http://192.168.8.101:3000/socket.io/server-status,400,Bad Request,8,230,40
+6532,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,GET,http://192.168.8.101:3000/socket.io/core,400,Bad Request,5,230,40
+6533,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,GET,http://192.168.8.101:3000/socket.io/sftp-config.json,400,Bad Request,6,230,40
+6534,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,GET,http://192.168.8.101:3000/socket.io/WS_FTP.ini,400,Bad Request,5,230,40
+6535,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,GET,http://192.168.8.101:3000/socket.io/ws_ftp.ini,400,Bad Request,4,230,40
+6536,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,GET,http://192.168.8.101:3000/socket.io/WS_FTP.INI,400,Bad Request,16,230,40
+6537,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,GET,http://192.168.8.101:3000/socket.io/filezilla.xml,400,Bad Request,6,230,40
+6538,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,GET,http://192.168.8.101:3000/socket.io/sitemanager.xml,400,Bad Request,4,230,40
+6539,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,GET,http://192.168.8.101:3000/socket.io/FileZilla.xml,400,Bad Request,35,230,40
+6540,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=%3C&transport=polling&t=Pd9LhnU&sid=j94n85-oECNedDJJAAAl,400,Bad Request,30,230,41
+6541,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=%3C&transport=polling&t=Pd9LmoF&sid=j94n85-oECNedDJJAAAl,400,Bad Request,28,230,41
+6542,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,GET,http://192.168.8.101:3000,200,OK,18,469,75002
+6543,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=%3C&transport=polling&t=Pd9XKjD&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,6,230,41
+6544,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E&transport=polling&t=Pd9LmoF&sid=j94n85-oECNedDJJAAAl,400,Bad Request,18,230,41
+6545,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=system-property%28%27xsl%3Avendor%27%29%2F%3E&transport=polling&t=Pd9LmoF&sid=j94n85-oECNedDJJAAAl,400,Bad Request,13,230,41
+6546,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E&transport=polling&t=Pd9XKjD&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,14,230,41
+6547,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,GET,http://192.168.8.101:3000/socket.io/winscp.ini,400,Bad Request,51,230,40
+6548,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&transport=polling&t=Pd9LmoF&sid=j94n85-oECNedDJJAAAl,400,Bad Request,24,230,41
+6549,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=system-property%28%27xsl%3Avendor%27%29%2F%3E&transport=polling&t=Pd9XKjD&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,12,230,41
+6550,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E&transport=polling&t=Pd9LhnU&sid=j94n85-oECNedDJJAAAl,400,Bad Request,104,230,41
+6551,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&transport=polling&t=Pd9LmoF&sid=j94n85-oECNedDJJAAAl,400,Bad Request,15,230,41
+6552,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,GET,http://192.168.8.101:3000/socket.io/WinSCP.ini,400,Bad Request,18,230,40
+6553,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&transport=polling&t=Pd9XKjD&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,13,230,41
+6554,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=system-property%28%27xsl%3Avendor%27%29%2F%3E&transport=polling&t=Pd9LhnU&sid=j94n85-oECNedDJJAAAl,400,Bad Request,17,230,41
+6555,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,GET,http://192.168.8.101:3000/socket.io/.DS_Store,400,Bad Request,10,230,40
+6556,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22document%28%27http%3A%2F%2F192.168.8.101%3A22%27%29%22%2F%3E&transport=polling&t=Pd9LmoF&sid=j94n85-oECNedDJJAAAl,400,Bad Request,22,230,41
+6557,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&transport=polling&t=Pd9XKjD&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,7,230,41
+6558,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&transport=polling&t=Pd9LhnU&sid=j94n85-oECNedDJJAAAl,400,Bad Request,26,230,41
+6559,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=%3Cxsl%3Avariable+name%3D%22rtobject%22+select%3D%22runtime%3AgetRuntime%28%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22process%22+select%3D%22runtime%3Aexec%28%24rtobject%2C%27erroneous_command%27%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22waiting%22+select%3D%22process%3AwaitFor%28%24process%29%22%2F%3E%0A%3Cxsl%3Avalue-of+select%3D%22%24process%22%2F%3E&transport=polling&t=Pd9LmoF&sid=j94n85-oECNedDJJAAAl,400,Bad Request,18,230,41
+6560,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22document%28%27http%3A%2F%2F192.168.8.101%3A22%27%29%22%2F%3E&transport=polling&t=Pd9XKjD&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,21,230,41
+6563,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22php%3Afunction%28%27exec%27%2C%27erroneous_command+2%3E%26amp%3B1%27%29%22%2F%3E&transport=polling&t=Pd9LmoF&sid=j94n85-oECNedDJJAAAl,400,Bad Request,22,230,41
+6562,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,GET,http://192.168.8.101:3000/socket.io/.php_cs.cache,400,Bad Request,58,230,40
+6564,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=%3Cxsl%3Avariable+name%3D%22rtobject%22+select%3D%22runtime%3AgetRuntime%28%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22process%22+select%3D%22runtime%3Aexec%28%24rtobject%2C%27erroneous_command%27%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22waiting%22+select%3D%22process%3AwaitFor%28%24process%29%22%2F%3E%0A%3Cxsl%3Avalue-of+select%3D%22%24process%22%2F%3E&transport=polling&t=Pd9XKjD&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,7,230,41
+6566,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=%3C&t=Pd9LmoF&sid=j94n85-oECNedDJJAAAl,400,Bad Request,9,230,40
+6561,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&transport=polling&t=Pd9LhnU&sid=j94n85-oECNedDJJAAAl,400,Bad Request,36,230,41
+6567,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E&t=Pd9LmoF&sid=j94n85-oECNedDJJAAAl,400,Bad Request,7,230,40
+6565,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:47 IST 2025,GET,http://192.168.8.101:3000/socket.io/DEADJOE,400,Bad Request,7,230,40
+6568,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=system-property%28%27xsl%3Avendor%27%29%2F%3E&t=Pd9LmoF&sid=j94n85-oECNedDJJAAAl,400,Bad Request,17,230,40
+6569,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:48 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22php%3Afunction%28%27exec%27%2C%27erroneous_command+2%3E%26amp%3B1%27%29%22%2F%3E&transport=polling&t=Pd9XKjD&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,48,230,41
+6570,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/socket.io/sites/default/private/files/backup_migrate/scheduled/test.txt,400,Bad Request,18,230,40
+6571,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/socket.io/app/etc/local.xml,400,Bad Request,9,230,40
+6572,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&t=Pd9LmoF&sid=j94n85-oECNedDJJAAAl,400,Bad Request,13,230,40
+6573,Thu Oct 09 23:25:47 IST 2025,Thu Oct 09 23:25:48 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22document%28%27http%3A%2F%2F192.168.8.101%3A22%27%29%22%2F%3E&transport=polling&t=Pd9LhnU&sid=j94n85-oECNedDJJAAAl,400,Bad Request,64,230,41
+6574,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/socket.io/server.key,400,Bad Request,11,230,40
+6575,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/socket.io/privatekey.key,400,Bad Request,3,230,40
+6576,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=%3C&t=Pd9XKjD&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,41,230,40
+6577,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/socket.io/myserver.key,400,Bad Request,9,230,40
+6578,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E&t=Pd9XKjD&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,7,230,40
+6579,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=%3Cxsl%3Avariable+name%3D%22rtobject%22+select%3D%22runtime%3AgetRuntime%28%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22process%22+select%3D%22runtime%3Aexec%28%24rtobject%2C%27erroneous_command%27%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22waiting%22+select%3D%22process%3AwaitFor%28%24process%29%22%2F%3E%0A%3Cxsl%3Avalue-of+select%3D%22%24process%22%2F%3E&transport=polling&t=Pd9LhnU&sid=j94n85-oECNedDJJAAAl,400,Bad Request,13,230,41
+6580,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=system-property%28%27xsl%3Avendor%27%29%2F%3E&t=Pd9XKjD&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,44,230,40
+6581,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/socket.io/key.pem,400,Bad Request,63,230,40
+6582,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22php%3Afunction%28%27exec%27%2C%27erroneous_command+2%3E%26amp%3B1%27%29%22%2F%3E&transport=polling&t=Pd9LhnU&sid=j94n85-oECNedDJJAAAl,400,Bad Request,109,230,41
+6583,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&t=Pd9XKjD&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,113,230,40
+6584,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=%3C&t=Pd9LhnU&sid=j94n85-oECNedDJJAAAl,400,Bad Request,11,230,40
+6585,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/socket.io/id_rsa,400,Bad Request,118,230,40
+6586,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E&t=Pd9LhnU&sid=j94n85-oECNedDJJAAAl,400,Bad Request,6,230,40
+6587,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=system-property%28%27xsl%3Avendor%27%29%2F%3E&t=Pd9LhnU&sid=j94n85-oECNedDJJAAAl,400,Bad Request,6,230,40
+6588,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/socket.io/id_dsa,400,Bad Request,17,230,40
+6589,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&t=Pd9LhnU&sid=j94n85-oECNedDJJAAAl,400,Bad Request,20,230,40
+6590,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/socket.io/.ssh/id_rsa,400,Bad Request,14,230,40
+6591,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/socket.io/.ssh/id_dsa,400,Bad Request,7,230,40
+6592,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/socket.io/adminer.php,400,Bad Request,5,230,40
+6593,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/socket.io/vb_test.php,400,Bad Request,5,230,40
+6594,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/socket.io/CHANGELOG.txt,400,Bad Request,20,230,40
+6595,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/socket.io/sites/default/files/.ht.sqlite,400,Bad Request,14,230,40
+6596,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/socket.io/composer.json,400,Bad Request,26,230,40
+6597,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/socket.io/composer.lock,400,Bad Request,13,230,40
+6598,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/api,500,Internal Server Error,23,363,1823
+6599,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/socket.io/vim_settings.xml,400,Bad Request,40,230,40
+6600,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/socket.io/server-info,400,Bad Request,16,230,40
+6601,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/socket.io/phpinfo.php,400,Bad Request,42,230,40
+6602,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/socket.io/info.php,400,Bad Request,39,230,40
+6604,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/socket.io/i.php,400,Bad Request,43,230,40
+6605,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/socket.io/test.php,400,Bad Request,3,230,40
+6606,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/socket.io/_wpeprivate/config.json,400,Bad Request,4,230,40
+6607,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/socket.io/_framework/blazor.boot.json,400,Bad Request,13,230,40
+6603,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/api/Challenges,200,OK,198,389,59080
+6608,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/socket.io/.hg,400,Bad Request,6,230,40
+6609,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/socket.io/.bzr,400,Bad Request,19,230,40
+6610,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/socket.io/._darcs,400,Bad Request,7,230,40
+6611,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/socket.io/BitKeeper,400,Bad Request,70,230,40
+6612,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys,304,Not Modified,230,306,0
+6613,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:48 IST 2025,GET,http://192.168.8.101:3000/api/Challenges/?name=%3C,200,OK,205,384,30
+6614,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:49 IST 2025,GET,http://192.168.8.101:3000/assets,301,Moved Permanently,21,416,156
+6615,Thu Oct 09 23:25:49 IST 2025,Thu Oct 09 23:25:49 IST 2025,GET,http://192.168.8.101:3000/assets/i18n,301,Moved Permanently,4,421,161
+6616,Thu Oct 09 23:25:49 IST 2025,Thu Oct 09 23:25:49 IST 2025,GET,http://192.168.8.101:3000/assets/public,301,Moved Permanently,7,423,163
+6617,Thu Oct 09 23:25:48 IST 2025,Thu Oct 09 23:25:49 IST 2025,GET,http://192.168.8.101:3000/api/Challenges/?name=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E,200,OK,164,384,30
+6618,Thu Oct 09 23:25:49 IST 2025,Thu Oct 09 23:25:49 IST 2025,GET,http://192.168.8.101:3000/assets/public/images,301,Moved Permanently,19,430,170
+6619,Thu Oct 09 23:25:49 IST 2025,Thu Oct 09 23:25:49 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products,301,Moved Permanently,6,439,179
+6620,Thu Oct 09 23:25:49 IST 2025,Thu Oct 09 23:25:49 IST 2025,GET,http://192.168.8.101:3000/api/Challenges/?name=system-property%28%27xsl%3Avendor%27%29%2F%3E,200,OK,118,384,30
+6621,Thu Oct 09 23:25:49 IST 2025,Thu Oct 09 23:25:49 IST 2025,GET,http://192.168.8.101:3000/rest,500,Internal Server Error,24,363,1825
+6622,Thu Oct 09 23:25:49 IST 2025,Thu Oct 09 23:25:49 IST 2025,GET,http://192.168.8.101:3000/api/Challenges/?name=%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--,200,OK,172,384,30
+6623,Thu Oct 09 23:25:49 IST 2025,Thu Oct 09 23:25:49 IST 2025,GET,http://192.168.8.101:3000/rest/admin,500,Internal Server Error,45,363,1837
+6624,Thu Oct 09 23:25:49 IST 2025,Thu Oct 09 23:25:49 IST 2025,GET,http://192.168.8.101:3000/rest/products,500,Internal Server Error,13,363,1843
+6625,Thu Oct 09 23:25:49 IST 2025,Thu Oct 09 23:25:49 IST 2025,GET,http://192.168.8.101:3000/rest/products/1,500,Internal Server Error,21,363,1847
+6626,Thu Oct 09 23:25:49 IST 2025,Thu Oct 09 23:25:49 IST 2025,GET,http://192.168.8.101:3000/rest/user,500,Internal Server Error,16,363,1835
+6627,Thu Oct 09 23:25:49 IST 2025,Thu Oct 09 23:25:49 IST 2025,GET,http://192.168.8.101:3000/socket.io,200,OK,102,469,75002
+6628,Thu Oct 09 23:25:49 IST 2025,Thu Oct 09 23:25:49 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=%3C&transport=polling&t=Pd9XKj-&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,19,230,41
+6629,Thu Oct 09 23:25:49 IST 2025,Thu Oct 09 23:25:49 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E&transport=polling&t=Pd9XKj-&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,31,230,41
+6630,Thu Oct 09 23:25:49 IST 2025,Thu Oct 09 23:25:49 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=system-property%28%27xsl%3Avendor%27%29%2F%3E&transport=polling&t=Pd9XKj-&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,20,230,41
+6631,Thu Oct 09 23:25:49 IST 2025,Thu Oct 09 23:25:49 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&transport=polling&t=Pd9XKj-&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,25,230,41
+6632,Thu Oct 09 23:25:49 IST 2025,Thu Oct 09 23:25:49 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&transport=polling&t=Pd9XKj-&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,7,230,41
+6633,Thu Oct 09 23:25:49 IST 2025,Thu Oct 09 23:25:49 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22document%28%27http%3A%2F%2F192.168.8.101%3A22%27%29%22%2F%3E&transport=polling&t=Pd9XKj-&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,13,230,41
+6634,Thu Oct 09 23:25:49 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=%3Cxsl%3Avariable+name%3D%22rtobject%22+select%3D%22runtime%3AgetRuntime%28%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22process%22+select%3D%22runtime%3Aexec%28%24rtobject%2C%27erroneous_command%27%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22waiting%22+select%3D%22process%3AwaitFor%28%24process%29%22%2F%3E%0A%3Cxsl%3Avalue-of+select%3D%22%24process%22%2F%3E&transport=polling&t=Pd9XKj-&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,44,230,41
+6635,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22php%3Afunction%28%27exec%27%2C%27erroneous_command+2%3E%26amp%3B1%27%29%22%2F%3E&transport=polling&t=Pd9XKj-&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,14,230,41
+6636,Thu Oct 09 23:25:49 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/rest/products/search?q=%3C,200,OK,450,388,7293
+6637,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=%3C&transport=websocket&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,34,92,18
+6638,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=%3C&t=Pd9XKj-&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,47,230,40
+6639,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E&transport=websocket&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,47,92,18
+6640,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E&t=Pd9XKj-&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,63,230,40
+6641,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=system-property%28%27xsl%3Avendor%27%29%2F%3E&transport=websocket&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,48,92,18
+6642,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&transport=websocket&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,24,92,18
+6643,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=system-property%28%27xsl%3Avendor%27%29%2F%3E&t=Pd9XKj-&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,28,230,40
+6645,Thu Oct 09 23:25:49 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/api/Challenges/?name=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--,200,OK,979,384,30
+6644,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&transport=websocket&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,200,92,18
+6646,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&t=Pd9XKj-&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,213,230,40
+6647,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22document%28%27http%3A%2F%2F192.168.8.101%3A22%27%29%22%2F%3E&transport=websocket&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,56,92,18
+6648,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/rest/products/search?q=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E,500,Internal Server Error,446,362,421
+6649,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=%3Cxsl%3Avariable+name%3D%22rtobject%22+select%3D%22runtime%3AgetRuntime%28%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22process%22+select%3D%22runtime%3Aexec%28%24rtobject%2C%27erroneous_command%27%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22waiting%22+select%3D%22process%3AwaitFor%28%24process%29%22%2F%3E%0A%3Cxsl%3Avalue-of+select%3D%22%24process%22%2F%3E&transport=websocket&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,14,92,18
+6650,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22php%3Afunction%28%27exec%27%2C%27erroneous_command+2%3E%26amp%3B1%27%29%22%2F%3E&transport=websocket&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,38,92,18
+6651,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=%3C&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,43,92,17
+6652,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,5,92,17
+6653,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=%3C&transport=polling&t=Pd9XKhr,200,OK,12,230,96
+6654,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=system-property%28%27xsl%3Avendor%27%29%2F%3E&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,21,92,17
+6655,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E&transport=polling&t=Pd9XKhr,200,OK,3,230,96
+6656,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,4,92,17
+6657,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=system-property%28%27xsl%3Avendor%27%29%2F%3E&transport=polling&t=Pd9XKhr,200,OK,2,230,96
+6658,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/rest/products/search?q=system-property%28%27xsl%3Avendor%27%29%2F%3E,500,Internal Server Error,242,362,371
+6659,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&transport=polling&t=Pd9XKhr,200,OK,32,230,96
+6660,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&transport=polling&t=Pd9XKhr,200,OK,27,230,96
+6661,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22document%28%27http%3A%2F%2F192.168.8.101%3A22%27%29%22%2F%3E&transport=polling&t=Pd9XKhr,200,OK,14,230,96
+6662,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=%3Cxsl%3Avariable+name%3D%22rtobject%22+select%3D%22runtime%3AgetRuntime%28%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22process%22+select%3D%22runtime%3Aexec%28%24rtobject%2C%27erroneous_command%27%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22waiting%22+select%3D%22process%3AwaitFor%28%24process%29%22%2F%3E%0A%3Cxsl%3Avalue-of+select%3D%22%24process%22%2F%3E&transport=polling&t=Pd9XKhr,200,OK,11,230,96
+6663,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=%3Cxsl%3Avalue-of+select%3D%22php%3Afunction%28%27exec%27%2C%27erroneous_command+2%3E%26amp%3B1%27%29%22%2F%3E&transport=polling&t=Pd9XKhr,200,OK,8,230,96
+6664,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=%3C&t=Pd9XKhr,400,Bad Request,1,230,40
+6665,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E&t=Pd9XKhr,400,Bad Request,71,230,40
+6666,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/rest/products/search?q=%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--,500,Internal Server Error,176,362,437
+6667,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=system-property%28%27xsl%3Avendor%27%29%2F%3E&t=Pd9XKhr,400,Bad Request,7,230,40
+6668,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:50 IST 2025,GET,http://192.168.8.101:3000/api/Challenges/?name=%3Cxsl%3Avalue-of+select%3D%22document%28%27http%3A%2F%2F192.168.8.101%3A22%27%29%22%2F%3E,200,OK,498,384,30
+6669,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:51 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&t=Pd9XKhr,400,Bad Request,67,230,40
+6670,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:51 IST 2025,GET,http://192.168.8.101:3000/rest/products/search?q=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--,500,Internal Server Error,189,362,429
+6671,Thu Oct 09 23:25:51 IST 2025,Thu Oct 09 23:25:51 IST 2025,GET,http://192.168.8.101:3000/rest/products/search?q=%3Cxsl%3Avalue-of+select%3D%22document%28%27http%3A%2F%2F192.168.8.101%3A22%27%29%22%2F%3E,500,Internal Server Error,142,362,435
+6672,Thu Oct 09 23:25:50 IST 2025,Thu Oct 09 23:25:51 IST 2025,GET,http://192.168.8.101:3000/api/Challenges/?name=%3Cxsl%3Avariable+name%3D%22rtobject%22+select%3D%22runtime%3AgetRuntime%28%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22process%22+select%3D%22runtime%3Aexec%28%24rtobject%2C%27erroneous_command%27%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22waiting%22+select%3D%22process%3AwaitFor%28%24process%29%22%2F%3E%0A%3Cxsl%3Avalue-of+select%3D%22%24process%22%2F%3E,200,OK,411,384,30
+6673,Thu Oct 09 23:25:51 IST 2025,Thu Oct 09 23:25:51 IST 2025,GET,http://192.168.8.101:3000/rest/products/search?q=%3Cxsl%3Avariable+name%3D%22rtobject%22+select%3D%22runtime%3AgetRuntime%28%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22process%22+select%3D%22runtime%3Aexec%28%24rtobject%2C%27erroneous_command%27%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22waiting%22+select%3D%22process%3AwaitFor%28%24process%29%22%2F%3E%0A%3Cxsl%3Avalue-of+select%3D%22%24process%22%2F%3E,500,Internal Server Error,79,362,763
+6674,Thu Oct 09 23:25:51 IST 2025,Thu Oct 09 23:25:51 IST 2025,GET,http://192.168.8.101:3000/rest/products/search?q=%3Cxsl%3Avalue-of+select%3D%22php%3Afunction%28%27exec%27%2C%27erroneous_command+2%3E%26amp%3B1%27%29%22%2F%3E,500,Internal Server Error,197,362,463
+6675,Thu Oct 09 23:25:51 IST 2025,Thu Oct 09 23:25:51 IST 2025,GET,http://192.168.8.101:3000/api/Challenges/?name=%3Cxsl%3Avalue-of+select%3D%22php%3Afunction%28%27exec%27%2C%27erroneous_command+2%3E%26amp%3B1%27%29%22%2F%3E,200,OK,284,384,30
+6676,Thu Oct 09 23:25:51 IST 2025,Thu Oct 09 23:25:51 IST 2025,GET,http://192.168.8.101:3000,200,OK,10,469,75002
+6677,Thu Oct 09 23:25:51 IST 2025,Thu Oct 09 23:25:51 IST 2025,GET,http://192.168.8.101:3000/api,500,Internal Server Error,39,363,1823
+6678,Thu Oct 09 23:25:51 IST 2025,Thu Oct 09 23:25:51 IST 2025,GET,http://192.168.8.101:3000/api/Challenges,200,OK,149,389,59080
+6679,Thu Oct 09 23:25:51 IST 2025,Thu Oct 09 23:25:52 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys,304,Not Modified,124,306,0
+6680,Thu Oct 09 23:25:52 IST 2025,Thu Oct 09 23:25:52 IST 2025,GET,http://192.168.8.101:3000/assets,301,Moved Permanently,5,416,156
+6681,Thu Oct 09 23:25:52 IST 2025,Thu Oct 09 23:25:52 IST 2025,GET,http://192.168.8.101:3000/assets/i18n,301,Moved Permanently,5,421,161
+6682,Thu Oct 09 23:25:52 IST 2025,Thu Oct 09 23:25:52 IST 2025,GET,http://192.168.8.101:3000/assets/public,301,Moved Permanently,9,423,163
+6683,Thu Oct 09 23:25:52 IST 2025,Thu Oct 09 23:25:52 IST 2025,GET,http://192.168.8.101:3000/assets/public/images,301,Moved Permanently,9,430,170
+6684,Thu Oct 09 23:25:52 IST 2025,Thu Oct 09 23:25:52 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products,301,Moved Permanently,4,439,179
+6685,Thu Oct 09 23:25:52 IST 2025,Thu Oct 09 23:25:52 IST 2025,GET,http://192.168.8.101:3000/rest,500,Internal Server Error,7,363,1825
+6686,Thu Oct 09 23:25:52 IST 2025,Thu Oct 09 23:25:52 IST 2025,GET,http://192.168.8.101:3000/rest/admin,500,Internal Server Error,39,363,1837
+6687,Thu Oct 09 23:25:52 IST 2025,Thu Oct 09 23:25:52 IST 2025,GET,http://192.168.8.101:3000/rest/products,500,Internal Server Error,11,363,1843
+6688,Thu Oct 09 23:25:52 IST 2025,Thu Oct 09 23:25:52 IST 2025,GET,http://192.168.8.101:3000/rest/products/1,500,Internal Server Error,10,363,1847
+6689,Thu Oct 09 23:25:52 IST 2025,Thu Oct 09 23:25:52 IST 2025,GET,http://192.168.8.101:3000/rest/user,500,Internal Server Error,31,363,1835
+6690,Thu Oct 09 23:25:52 IST 2025,Thu Oct 09 23:25:52 IST 2025,GET,http://192.168.8.101:3000/socket.io,200,OK,34,469,75002
+6691,Thu Oct 09 23:25:52 IST 2025,Thu Oct 09 23:25:52 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9LmoF&sid=j94n85-oECNedDJJAAAl,400,Bad Request,4,230,41
+6692,Thu Oct 09 23:25:52 IST 2025,Thu Oct 09 23:25:52 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9LmoF&sid=j94n85-oECNedDJJAAAl,400,Bad Request,2,230,41
+6693,Thu Oct 09 23:25:52 IST 2025,Thu Oct 09 23:25:52 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9LmoF&sid=j94n85-oECNedDJJAAAl,400,Bad Request,5,230,41
+6694,Thu Oct 09 23:25:52 IST 2025,Thu Oct 09 23:25:52 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKjD&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,5,230,41
+6696,Thu Oct 09 23:25:52 IST 2025,Thu Oct 09 23:25:52 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9LhnU&sid=j94n85-oECNedDJJAAAl,400,Bad Request,8,230,41
+6698,Thu Oct 09 23:25:52 IST 2025,Thu Oct 09 23:25:52 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9LmoF&sid=j94n85-oECNedDJJAAAl,400,Bad Request,9,230,41
+6699,Thu Oct 09 23:25:52 IST 2025,Thu Oct 09 23:25:52 IST 2025,GET,http://192.168.8.101:3000,200,OK,9,469,75002
+6700,Thu Oct 09 23:25:52 IST 2025,Thu Oct 09 23:25:52 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9LmoF&sid=j94n85-oECNedDJJAAAl,400,Bad Request,11,230,41
+6701,Thu Oct 09 23:25:52 IST 2025,Thu Oct 09 23:25:52 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9LmoF&sid=j94n85-oECNedDJJAAAl,400,Bad Request,5,230,41
+6703,Thu Oct 09 23:25:52 IST 2025,Thu Oct 09 23:25:52 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9LhnU&sid=j94n85-oECNedDJJAAAl,400,Bad Request,6,230,41
+6705,Thu Oct 09 23:25:52 IST 2025,Thu Oct 09 23:25:52 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKjD&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,7,230,41
+6702,Thu Oct 09 23:25:52 IST 2025,Thu Oct 09 23:25:52 IST 2025,GET,http://192.168.8.101:3000,200,OK,29,469,75002
+6707,Thu Oct 09 23:25:52 IST 2025,Thu Oct 09 23:25:52 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9LmoF&sid=j94n85-oECNedDJJAAAl,400,Bad Request,17,230,41
+6708,Thu Oct 09 23:25:52 IST 2025,Thu Oct 09 23:25:53 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9LmoF&sid=j94n85-oECNedDJJAAAl,400,Bad Request,206,230,41
+6709,Thu Oct 09 23:25:52 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000,200,OK,213,469,75002
+6710,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9LmoF&sid=j94n85-oECNedDJJAAAl,400,Bad Request,9,230,41
+6711,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKjD&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,5,230,41
+6713,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9LhnU&sid=j94n85-oECNedDJJAAAl,400,Bad Request,18,230,41
+6715,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9LmoF&sid=j94n85-oECNedDJJAAAl,400,Bad Request,13,230,41
+6716,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000,200,OK,16,469,75002
+6717,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9LmoF&sid=j94n85-oECNedDJJAAAl,400,Bad Request,3,230,41
+6718,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9LmoF&sid=j94n85-oECNedDJJAAAl,400,Bad Request,7,230,41
+6719,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000,200,OK,16,469,75002
+6720,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000/,200,OK,7,469,75002
+6721,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000,200,OK,106,469,75002
+6722,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000/,200,OK,9,469,75002
+6723,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000,200,OK,11,469,75002
+6724,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000/,200,OK,6,469,75002
+6725,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000,200,OK,12,469,75002
+6726,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9LhnU&sid=j94n85-oECNedDJJAAAl,400,Bad Request,8,230,41
+6728,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKjD&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,6,230,41
+6730,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000/,200,OK,13,469,75002
+6731,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000,200,OK,19,469,75002
+6732,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000/,200,OK,8,469,75002
+6733,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000,200,OK,6,469,75002
+6734,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000/,200,OK,12,469,75002
+6735,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000,200,OK,14,469,75002
+6736,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000/,200,OK,10,469,75002
+6737,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000,200,OK,18,469,75002
+6738,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000/,200,OK,28,469,75002
+6739,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000,200,OK,36,469,75002
+6740,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000/,200,OK,39,469,75002
+6741,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000/,200,OK,7,469,75002
+6742,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000/,200,OK,17,469,75002
+6743,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000/,200,OK,9,469,75002
+6744,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000/api,500,Internal Server Error,7,363,1823
+6745,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000/MaterialIcons-Regular.woff2,200,OK,108,431,60840
+6746,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000/api,500,Internal Server Error,93,363,1823
+6747,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKjD&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,117,230,41
+6749,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9LhnU&sid=j94n85-oECNedDJJAAAl,400,Bad Request,125,230,41
+6751,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000/api,500,Internal Server Error,51,363,1823
+6753,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000/api,500,Internal Server Error,35,363,1823
+6752,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000/MaterialIcons-Regular.woff2,200,OK,90,431,60840
+6754,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000/api,500,Internal Server Error,39,363,1823
+6755,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:53 IST 2025,GET,http://192.168.8.101:3000/api,500,Internal Server Error,22,363,1823
+6756,Thu Oct 09 23:25:54 IST 2025,Thu Oct 09 23:25:54 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKjD&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,16,230,41
+6758,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:54 IST 2025,GET,http://192.168.8.101:3000/api,500,Internal Server Error,87,363,1823
+6760,Thu Oct 09 23:25:54 IST 2025,Thu Oct 09 23:25:54 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9LhnU&sid=j94n85-oECNedDJJAAAl,400,Bad Request,38,230,41
+6759,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:54 IST 2025,GET,http://192.168.8.101:3000/MaterialIcons-Regular.woff2,200,OK,151,431,60840
+6762,Thu Oct 09 23:25:54 IST 2025,Thu Oct 09 23:25:54 IST 2025,GET,http://192.168.8.101:3000/api,500,Internal Server Error,15,363,1823
+6763,Thu Oct 09 23:25:54 IST 2025,Thu Oct 09 23:25:54 IST 2025,GET,http://192.168.8.101:3000/MaterialIcons-Regular.woff2,200,OK,34,431,60840
+6764,Thu Oct 09 23:25:54 IST 2025,Thu Oct 09 23:25:54 IST 2025,GET,http://192.168.8.101:3000/api,500,Internal Server Error,18,363,1823
+6765,Thu Oct 09 23:25:54 IST 2025,Thu Oct 09 23:25:54 IST 2025,GET,http://192.168.8.101:3000/api,500,Internal Server Error,24,363,1823
+6766,Thu Oct 09 23:25:54 IST 2025,Thu Oct 09 23:25:54 IST 2025,GET,http://192.168.8.101:3000/api,500,Internal Server Error,13,363,1823
+6767,Thu Oct 09 23:25:54 IST 2025,Thu Oct 09 23:25:54 IST 2025,GET,http://192.168.8.101:3000/api,500,Internal Server Error,240,363,1823
+6768,Thu Oct 09 23:25:54 IST 2025,Thu Oct 09 23:25:54 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKjD&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,380,230,41
+6771,Thu Oct 09 23:25:54 IST 2025,Thu Oct 09 23:25:54 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9LhnU&sid=j94n85-oECNedDJJAAAl,400,Bad Request,411,230,41
+6770,Thu Oct 09 23:25:54 IST 2025,Thu Oct 09 23:25:54 IST 2025,GET,http://192.168.8.101:3000/MaterialIcons-Regular.woff2,200,OK,481,431,60840
+6773,Thu Oct 09 23:25:54 IST 2025,Thu Oct 09 23:25:54 IST 2025,GET,http://192.168.8.101:3000/api,500,Internal Server Error,234,363,1823
+6774,Thu Oct 09 23:25:54 IST 2025,Thu Oct 09 23:25:54 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKjD&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,51,230,41
+6776,Thu Oct 09 23:25:54 IST 2025,Thu Oct 09 23:25:54 IST 2025,GET,http://192.168.8.101:3000/MaterialIcons-Regular.woff2,200,OK,28,431,60840
+6777,Thu Oct 09 23:25:54 IST 2025,Thu Oct 09 23:25:54 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9LhnU&sid=j94n85-oECNedDJJAAAl,400,Bad Request,7,230,41
+6780,Thu Oct 09 23:25:54 IST 2025,Thu Oct 09 23:25:54 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9LhnU&sid=j94n85-oECNedDJJAAAl,400,Bad Request,5,230,41
+6782,Thu Oct 09 23:25:54 IST 2025,Thu Oct 09 23:25:54 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKjD&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,3,230,41
+6784,Thu Oct 09 23:25:55 IST 2025,Thu Oct 09 23:25:55 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKjD&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,16,230,41
+6786,Thu Oct 09 23:25:55 IST 2025,Thu Oct 09 23:25:55 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9LhnU&sid=j94n85-oECNedDJJAAAl,400,Bad Request,16,230,41
+6779,Thu Oct 09 23:25:54 IST 2025,Thu Oct 09 23:25:54 IST 2025,GET,http://192.168.8.101:3000/MaterialIcons-Regular.woff2,200,OK,12,431,60840
+6788,Thu Oct 09 23:25:55 IST 2025,Thu Oct 09 23:25:55 IST 2025,GET,http://192.168.8.101:3000/MaterialIcons-Regular.woff2,200,OK,13,431,60840
+6789,Thu Oct 09 23:25:55 IST 2025,Thu Oct 09 23:25:55 IST 2025,GET,http://192.168.8.101:3000/MaterialIcons-Regular.woff2,200,OK,93,431,60840
+6790,Thu Oct 09 23:25:55 IST 2025,Thu Oct 09 23:25:55 IST 2025,GET,http://192.168.8.101:3000/MaterialIcons-Regular.woff2,200,OK,19,431,60840
+6791,Thu Oct 09 23:25:55 IST 2025,Thu Oct 09 23:25:55 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9LhnU&sid=j94n85-oECNedDJJAAAl,400,Bad Request,14,230,41
+6793,Thu Oct 09 23:25:55 IST 2025,Thu Oct 09 23:25:55 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKjD&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,12,230,41
+6795,Thu Oct 09 23:25:55 IST 2025,Thu Oct 09 23:25:55 IST 2025,GET,http://192.168.8.101:3000/MaterialIcons-Regular.woff2,200,OK,20,431,60840
+6796,Thu Oct 09 23:25:55 IST 2025,Thu Oct 09 23:25:55 IST 2025,GET,http://192.168.8.101:3000/MaterialIcons-Regular.woff2,200,OK,8,431,60840
+6797,Thu Oct 09 23:25:55 IST 2025,Thu Oct 09 23:25:55 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9LhnU&sid=j94n85-oECNedDJJAAAl,400,Bad Request,310,230,41
+6799,Thu Oct 09 23:25:55 IST 2025,Thu Oct 09 23:25:55 IST 2025,POST,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKjD&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,374,230,41
+6801,Thu Oct 09 23:25:53 IST 2025,Thu Oct 09 23:25:56 IST 2025,GET,http://192.168.8.101:3000/api/Challenges,200,OK,2305,389,59080
+6802,Thu Oct 09 23:25:56 IST 2025,Thu Oct 09 23:25:56 IST 2025,GET,http://192.168.8.101:3000/api/Challenges,200,OK,397,389,59080
+6803,Thu Oct 09 23:25:56 IST 2025,Thu Oct 09 23:25:56 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys,304,Not Modified,297,306,0
+6804,Thu Oct 09 23:25:56 IST 2025,Thu Oct 09 23:25:56 IST 2025,GET,http://192.168.8.101:3000/api/Challenges/?name=Score%20Board,200,OK,294,386,449
+6805,Thu Oct 09 23:25:56 IST 2025,Thu Oct 09 23:25:56 IST 2025,GET,http://192.168.8.101:3000/assets,301,Moved Permanently,56,416,156
+6806,Thu Oct 09 23:25:56 IST 2025,Thu Oct 09 23:25:56 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys,200,OK,379,388,6258
+6808,Thu Oct 09 23:25:56 IST 2025,Thu Oct 09 23:25:56 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys/,200,OK,375,388,6258
+6810,Thu Oct 09 23:25:56 IST 2025,Thu Oct 09 23:25:56 IST 2025,GET,http://192.168.8.101:3000/api/Challenges/?name=Score%20Board,200,OK,415,386,449
+6809,Thu Oct 09 23:25:56 IST 2025,Thu Oct 09 23:25:56 IST 2025,GET,http://192.168.8.101:3000/api/Challenges,200,OK,465,389,59080
+6811,Thu Oct 09 23:25:56 IST 2025,Thu Oct 09 23:25:57 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys,200,OK,362,388,6258
+6813,Thu Oct 09 23:25:56 IST 2025,Thu Oct 09 23:25:57 IST 2025,GET,http://192.168.8.101:3000/api/Challenges/?name=Score%20Board,200,OK,353,386,449
+6814,Thu Oct 09 23:25:56 IST 2025,Thu Oct 09 23:25:57 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys/,200,OK,398,388,6258
+6815,Thu Oct 09 23:25:56 IST 2025,Thu Oct 09 23:25:57 IST 2025,GET,http://192.168.8.101:3000/api/Challenges,200,OK,349,389,59080
+6816,Thu Oct 09 23:25:57 IST 2025,Thu Oct 09 23:25:57 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys,200,OK,364,388,6258
+6818,Thu Oct 09 23:25:57 IST 2025,Thu Oct 09 23:25:57 IST 2025,GET,http://192.168.8.101:3000/api/Challenges/?name=Score%20Board,200,OK,355,386,449
+6819,Thu Oct 09 23:25:57 IST 2025,Thu Oct 09 23:25:57 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys/,200,OK,353,388,6258
+6820,Thu Oct 09 23:25:57 IST 2025,Thu Oct 09 23:25:57 IST 2025,GET,http://192.168.8.101:3000/api/Challenges,200,OK,359,389,59080
+6821,Thu Oct 09 23:25:57 IST 2025,Thu Oct 09 23:25:58 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys,200,OK,395,388,6258
+6823,Thu Oct 09 23:25:57 IST 2025,Thu Oct 09 23:25:58 IST 2025,GET,http://192.168.8.101:3000/api/Challenges/?name=Score%20Board,200,OK,405,386,449
+6824,Thu Oct 09 23:25:57 IST 2025,Thu Oct 09 23:25:58 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys/,200,OK,406,388,6258
+6825,Thu Oct 09 23:25:57 IST 2025,Thu Oct 09 23:25:58 IST 2025,GET,http://192.168.8.101:3000/api/Challenges,200,OK,427,389,59080
+6826,Thu Oct 09 23:25:58 IST 2025,Thu Oct 09 23:25:58 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys,200,OK,424,388,6258
+6828,Thu Oct 09 23:25:58 IST 2025,Thu Oct 09 23:25:58 IST 2025,GET,http://192.168.8.101:3000/api/Challenges/?name=Score%20Board,200,OK,412,386,449
+6829,Thu Oct 09 23:25:58 IST 2025,Thu Oct 09 23:25:58 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys/,200,OK,406,388,6258
+6830,Thu Oct 09 23:25:58 IST 2025,Thu Oct 09 23:25:58 IST 2025,GET,http://192.168.8.101:3000/api/Challenges,200,OK,383,389,59080
+6831,Thu Oct 09 23:25:58 IST 2025,Thu Oct 09 23:25:58 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys/,200,OK,454,388,6258
+6832,Thu Oct 09 23:25:58 IST 2025,Thu Oct 09 23:25:58 IST 2025,GET,http://192.168.8.101:3000/api/Challenges/?name=Score%20Board,200,OK,465,386,449
+6833,Thu Oct 09 23:25:58 IST 2025,Thu Oct 09 23:25:58 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys,200,OK,499,388,6258
+6835,Thu Oct 09 23:25:58 IST 2025,Thu Oct 09 23:25:59 IST 2025,GET,http://192.168.8.101:3000/api/Challenges,200,OK,469,389,59080
+6836,Thu Oct 09 23:25:58 IST 2025,Thu Oct 09 23:25:59 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys/,200,OK,348,388,6258
+6837,Thu Oct 09 23:25:58 IST 2025,Thu Oct 09 23:25:59 IST 2025,GET,http://192.168.8.101:3000/api/Challenges/?name=Score%20Board,200,OK,346,386,449
+6838,Thu Oct 09 23:25:59 IST 2025,Thu Oct 09 23:25:59 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys,200,OK,316,388,6258
+6840,Thu Oct 09 23:25:59 IST 2025,Thu Oct 09 23:25:59 IST 2025,GET,http://192.168.8.101:3000/api/Challenges,200,OK,335,389,59080
+6841,Thu Oct 09 23:25:59 IST 2025,Thu Oct 09 23:25:59 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys/,200,OK,405,388,6258
+6842,Thu Oct 09 23:25:59 IST 2025,Thu Oct 09 23:25:59 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys,200,OK,364,388,6258
+6844,Thu Oct 09 23:25:59 IST 2025,Thu Oct 09 23:25:59 IST 2025,GET,http://192.168.8.101:3000/api/Challenges/?name=Score%20Board,200,OK,413,386,449
+6845,Thu Oct 09 23:25:59 IST 2025,Thu Oct 09 23:25:59 IST 2025,GET,http://192.168.8.101:3000/api/Challenges,200,OK,332,389,59080
+6846,Thu Oct 09 23:25:59 IST 2025,Thu Oct 09 23:26:00 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys/,200,OK,405,388,6258
+6847,Thu Oct 09 23:25:59 IST 2025,Thu Oct 09 23:26:00 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys,200,OK,386,388,6258
+6849,Thu Oct 09 23:25:59 IST 2025,Thu Oct 09 23:26:00 IST 2025,GET,http://192.168.8.101:3000/api/Challenges/?name=Score%20Board,200,OK,407,386,449
+6850,Thu Oct 09 23:25:59 IST 2025,Thu Oct 09 23:26:00 IST 2025,GET,http://192.168.8.101:3000/api/Challenges,200,OK,394,389,59080
+6851,Thu Oct 09 23:26:00 IST 2025,Thu Oct 09 23:26:00 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys/,200,OK,501,388,6258
+6852,Thu Oct 09 23:26:00 IST 2025,Thu Oct 09 23:26:00 IST 2025,GET,http://192.168.8.101:3000/api/Challenges,200,OK,476,389,59080
+6853,Thu Oct 09 23:26:00 IST 2025,Thu Oct 09 23:26:00 IST 2025,GET,http://192.168.8.101:3000/api/Challenges/?name=Score%20Board,200,OK,505,386,449
+6854,Thu Oct 09 23:26:00 IST 2025,Thu Oct 09 23:26:00 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys,200,OK,503,388,6258
+6856,Thu Oct 09 23:26:00 IST 2025,Thu Oct 09 23:26:01 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys/,200,OK,530,388,6258
+6858,Thu Oct 09 23:26:00 IST 2025,Thu Oct 09 23:26:01 IST 2025,GET,http://192.168.8.101:3000/api/Challenges/?name=Score%20Board,200,OK,513,386,449
+6859,Thu Oct 09 23:26:00 IST 2025,Thu Oct 09 23:26:01 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys,200,OK,486,388,6258
+6857,Thu Oct 09 23:26:00 IST 2025,Thu Oct 09 23:26:01 IST 2025,GET,http://192.168.8.101:3000/api/Challenges,200,OK,520,389,59080
+6861,Thu Oct 09 23:26:01 IST 2025,Thu Oct 09 23:26:01 IST 2025,GET,http://192.168.8.101:3000/assets/i18n,301,Moved Permanently,52,421,161
+6862,Thu Oct 09 23:26:01 IST 2025,Thu Oct 09 23:26:01 IST 2025,GET,http://192.168.8.101:3000/assets,200,OK,5,469,75002
+6864,Thu Oct 09 23:26:01 IST 2025,Thu Oct 09 23:26:01 IST 2025,GET,http://192.168.8.101:3000/assets/i18n,200,OK,48,469,75002
+6866,Thu Oct 09 23:26:01 IST 2025,Thu Oct 09 23:26:01 IST 2025,GET,http://192.168.8.101:3000/assets,200,OK,14,469,75002
+6868,Thu Oct 09 23:26:01 IST 2025,Thu Oct 09 23:26:01 IST 2025,GET,http://192.168.8.101:3000/assets/i18n,200,OK,8,469,75002
+6870,Thu Oct 09 23:26:01 IST 2025,Thu Oct 09 23:26:01 IST 2025,GET,http://192.168.8.101:3000/assets,200,OK,4,469,75002
+6872,Thu Oct 09 23:26:01 IST 2025,Thu Oct 09 23:26:01 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys/,200,OK,655,388,6258
+6874,Thu Oct 09 23:26:01 IST 2025,Thu Oct 09 23:26:01 IST 2025,GET,http://192.168.8.101:3000/assets,200,OK,11,469,75002
+6873,Thu Oct 09 23:26:01 IST 2025,Thu Oct 09 23:26:01 IST 2025,GET,http://192.168.8.101:3000/assets/i18n,200,OK,20,469,75002
+6877,Thu Oct 09 23:26:02 IST 2025,Thu Oct 09 23:26:02 IST 2025,GET,http://192.168.8.101:3000/assets/public,301,Moved Permanently,5,423,163
+6878,Thu Oct 09 23:26:02 IST 2025,Thu Oct 09 23:26:02 IST 2025,GET,http://192.168.8.101:3000/assets/i18n/en.json,200,OK,15,475,32451
+6879,Thu Oct 09 23:26:02 IST 2025,Thu Oct 09 23:26:02 IST 2025,GET,http://192.168.8.101:3000/assets/i18n/en.json,200,OK,24,475,32451
+6880,Thu Oct 09 23:26:02 IST 2025,Thu Oct 09 23:26:02 IST 2025,GET,http://192.168.8.101:3000/assets/i18n/en.json,200,OK,45,475,32451
+6881,Thu Oct 09 23:26:02 IST 2025,Thu Oct 09 23:26:02 IST 2025,GET,http://192.168.8.101:3000/assets/i18n,200,OK,4,469,75002
+6883,Thu Oct 09 23:26:02 IST 2025,Thu Oct 09 23:26:02 IST 2025,GET,http://192.168.8.101:3000/assets,200,OK,14,469,75002
+6885,Thu Oct 09 23:26:02 IST 2025,Thu Oct 09 23:26:02 IST 2025,GET,http://192.168.8.101:3000/assets/i18n/en.json,200,OK,66,475,32451
+6886,Thu Oct 09 23:26:02 IST 2025,Thu Oct 09 23:26:02 IST 2025,GET,http://192.168.8.101:3000/assets/i18n/en.json,200,OK,21,475,32451
+6887,Thu Oct 09 23:26:02 IST 2025,Thu Oct 09 23:26:02 IST 2025,GET,http://192.168.8.101:3000/assets/i18n/en.json,200,OK,8,475,32451
+6888,Thu Oct 09 23:26:02 IST 2025,Thu Oct 09 23:26:02 IST 2025,GET,http://192.168.8.101:3000/assets/i18n/en.json,200,OK,7,475,32451
+6889,Thu Oct 09 23:26:02 IST 2025,Thu Oct 09 23:26:02 IST 2025,GET,http://192.168.8.101:3000/assets/i18n,200,OK,8,469,75002
+6892,Thu Oct 09 23:26:02 IST 2025,Thu Oct 09 23:26:02 IST 2025,GET,http://192.168.8.101:3000/assets/i18n/en.json,200,OK,34,475,32451
+6891,Thu Oct 09 23:26:02 IST 2025,Thu Oct 09 23:26:02 IST 2025,GET,http://192.168.8.101:3000/assets,200,OK,30,469,75002
+6894,Thu Oct 09 23:26:01 IST 2025,Thu Oct 09 23:26:02 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys,200,OK,1239,388,6258
+6895,Thu Oct 09 23:26:02 IST 2025,Thu Oct 09 23:26:02 IST 2025,GET,http://192.168.8.101:3000/assets/i18n/en.json,200,OK,46,475,32451
+6897,Thu Oct 09 23:26:02 IST 2025,Thu Oct 09 23:26:02 IST 2025,GET,http://192.168.8.101:3000/assets/i18n/en.json,200,OK,10,475,32451
+6898,Thu Oct 09 23:26:02 IST 2025,Thu Oct 09 23:26:02 IST 2025,GET,http://192.168.8.101:3000/assets/i18n/en.json,200,OK,10,475,32451
+6899,Thu Oct 09 23:26:02 IST 2025,Thu Oct 09 23:26:02 IST 2025,GET,http://192.168.8.101:3000/assets/i18n/en.json,200,OK,8,475,32451
+6900,Thu Oct 09 23:26:02 IST 2025,Thu Oct 09 23:26:02 IST 2025,GET,http://192.168.8.101:3000/assets/public,200,OK,4,469,75002
+6902,Thu Oct 09 23:26:02 IST 2025,Thu Oct 09 23:26:02 IST 2025,GET,http://192.168.8.101:3000/assets/i18n,200,OK,25,469,75002
+6904,Thu Oct 09 23:26:02 IST 2025,Thu Oct 09 23:26:02 IST 2025,GET,http://192.168.8.101:3000/assets,200,OK,29,469,75002
+6906,Thu Oct 09 23:26:02 IST 2025,Thu Oct 09 23:26:02 IST 2025,GET,http://192.168.8.101:3000/assets/public/images,301,Moved Permanently,18,430,170
+6907,Thu Oct 09 23:26:02 IST 2025,Thu Oct 09 23:26:02 IST 2025,GET,http://192.168.8.101:3000/assets/public/favicon_js.ico,200,OK,56,456,15086
+6908,Thu Oct 09 23:26:02 IST 2025,Thu Oct 09 23:26:02 IST 2025,GET,http://192.168.8.101:3000/assets/public,200,OK,7,469,75002
+6910,Thu Oct 09 23:26:02 IST 2025,Thu Oct 09 23:26:02 IST 2025,GET,http://192.168.8.101:3000/assets/public/favicon_js.ico,200,OK,15,456,15086
+6911,Thu Oct 09 23:26:02 IST 2025,Thu Oct 09 23:26:02 IST 2025,GET,http://192.168.8.101:3000/assets/public/favicon_js.ico,200,OK,8,456,15086
+6912,Thu Oct 09 23:26:02 IST 2025,Thu Oct 09 23:26:03 IST 2025,GET,http://192.168.8.101:3000/assets/public/favicon_js.ico,200,OK,29,456,15086
+6913,Thu Oct 09 23:26:02 IST 2025,Thu Oct 09 23:26:03 IST 2025,GET,http://192.168.8.101:3000/assets/i18n,200,OK,12,469,75002
+6914,Thu Oct 09 23:26:03 IST 2025,Thu Oct 09 23:26:03 IST 2025,GET,http://192.168.8.101:3000/assets/public/favicon_js.ico,200,OK,85,456,15086
+6916,Thu Oct 09 23:26:03 IST 2025,Thu Oct 09 23:26:03 IST 2025,GET,http://192.168.8.101:3000/assets,200,OK,36,469,75002
+6918,Thu Oct 09 23:26:03 IST 2025,Thu Oct 09 23:26:03 IST 2025,GET,http://192.168.8.101:3000/assets/public,200,OK,31,469,75002
+6920,Thu Oct 09 23:26:04 IST 2025,Thu Oct 09 23:26:04 IST 2025,GET,http://192.168.8.101:3000/assets/public/favicon_js.ico,200,OK,151,456,15086
+6921,Thu Oct 09 23:26:04 IST 2025,Thu Oct 09 23:26:04 IST 2025,GET,http://192.168.8.101:3000/assets,200,OK,153,469,75002
+6923,Thu Oct 09 23:26:04 IST 2025,Thu Oct 09 23:26:04 IST 2025,GET,http://192.168.8.101:3000/assets/public,200,OK,103,469,75002
+6926,Thu Oct 09 23:26:04 IST 2025,Thu Oct 09 23:26:04 IST 2025,GET,http://192.168.8.101:3000/assets/public/favicon_js.ico,200,OK,101,456,15086
+6925,Thu Oct 09 23:26:04 IST 2025,Thu Oct 09 23:26:04 IST 2025,GET,http://192.168.8.101:3000/assets/i18n,200,OK,103,469,75002
+6928,Thu Oct 09 23:26:04 IST 2025,Thu Oct 09 23:26:04 IST 2025,GET,http://192.168.8.101:3000/assets/public/favicon_js.ico,200,OK,16,456,15086
+6929,Thu Oct 09 23:26:04 IST 2025,Thu Oct 09 23:26:04 IST 2025,GET,http://192.168.8.101:3000/assets/public/favicon_js.ico,200,OK,8,456,15086
+6930,Thu Oct 09 23:26:04 IST 2025,Thu Oct 09 23:26:04 IST 2025,GET,http://192.168.8.101:3000/assets/public,200,OK,8,469,75002
+6933,Thu Oct 09 23:26:04 IST 2025,Thu Oct 09 23:26:04 IST 2025,GET,http://192.168.8.101:3000/assets/public/favicon_js.ico,200,OK,71,456,15086
+6932,Thu Oct 09 23:26:04 IST 2025,Thu Oct 09 23:26:04 IST 2025,GET,http://192.168.8.101:3000/assets,200,OK,7,469,75002
+6935,Thu Oct 09 23:26:04 IST 2025,Thu Oct 09 23:26:04 IST 2025,GET,http://192.168.8.101:3000/assets/public/favicon_js.ico,200,OK,8,456,15086
+6936,Thu Oct 09 23:26:04 IST 2025,Thu Oct 09 23:26:04 IST 2025,GET,http://192.168.8.101:3000/assets/public/favicon_js.ico,200,OK,8,456,15086
+6937,Thu Oct 09 23:26:04 IST 2025,Thu Oct 09 23:26:04 IST 2025,GET,http://192.168.8.101:3000/assets/i18n,200,OK,6,469,75002
+6939,Thu Oct 09 23:26:04 IST 2025,Thu Oct 09 23:26:04 IST 2025,GET,http://192.168.8.101:3000/assets/public/images,200,OK,10,469,75002
+6941,Thu Oct 09 23:26:04 IST 2025,Thu Oct 09 23:26:04 IST 2025,GET,http://192.168.8.101:3000/assets/public,200,OK,7,469,75002
+6943,Thu Oct 09 23:26:04 IST 2025,Thu Oct 09 23:26:04 IST 2025,GET,http://192.168.8.101:3000/assets,200,OK,28,469,75002
+6945,Thu Oct 09 23:26:04 IST 2025,Thu Oct 09 23:26:04 IST 2025,GET,http://192.168.8.101:3000/assets/i18n,200,OK,10,469,75002
+6947,Thu Oct 09 23:26:04 IST 2025,Thu Oct 09 23:26:04 IST 2025,GET,http://192.168.8.101:3000/assets/public/images,200,OK,7,469,75002
+6948,Thu Oct 09 23:26:04 IST 2025,Thu Oct 09 23:26:04 IST 2025,GET,http://192.168.8.101:3000/assets/public,200,OK,6,469,75002
+6951,Thu Oct 09 23:26:04 IST 2025,Thu Oct 09 23:26:05 IST 2025,GET,http://192.168.8.101:3000/assets,200,OK,77,469,75002
+6952,Thu Oct 09 23:26:04 IST 2025,Thu Oct 09 23:26:05 IST 2025,GET,http://192.168.8.101:3000/assets/i18n,200,OK,39,469,75002
+6955,Thu Oct 09 23:26:05 IST 2025,Thu Oct 09 23:26:05 IST 2025,GET,http://192.168.8.101:3000/assets/public,200,OK,9,469,75002
+6956,Thu Oct 09 23:26:05 IST 2025,Thu Oct 09 23:26:05 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/JuiceShop_Logo.png,200,OK,32,431,75029
+6958,Thu Oct 09 23:26:05 IST 2025,Thu Oct 09 23:26:05 IST 2025,GET,http://192.168.8.101:3000/assets/public/images,200,OK,11,469,75002
+6959,Thu Oct 09 23:26:05 IST 2025,Thu Oct 09 23:26:05 IST 2025,GET,http://192.168.8.101:3000/assets/i18n,200,OK,9,469,75002
+6962,Thu Oct 09 23:26:05 IST 2025,Thu Oct 09 23:26:05 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/JuiceShop_Logo.png,200,OK,36,431,75029
+6963,Thu Oct 09 23:26:05 IST 2025,Thu Oct 09 23:26:05 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/JuiceShop_Logo.png,200,OK,28,431,75029
+6964,Thu Oct 09 23:26:05 IST 2025,Thu Oct 09 23:26:05 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/JuiceShop_Logo.png,200,OK,11,431,75029
+6965,Thu Oct 09 23:26:05 IST 2025,Thu Oct 09 23:26:05 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/JuiceShop_Logo.png,200,OK,18,431,75029
+6966,Thu Oct 09 23:26:05 IST 2025,Thu Oct 09 23:26:05 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/JuiceShop_Logo.png,200,OK,13,431,75029
+6967,Thu Oct 09 23:26:05 IST 2025,Thu Oct 09 23:26:05 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/JuiceShop_Logo.png,200,OK,13,431,75029
+6968,Thu Oct 09 23:26:05 IST 2025,Thu Oct 09 23:26:05 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/JuiceShop_Logo.png,200,OK,10,431,75029
+6969,Thu Oct 09 23:26:05 IST 2025,Thu Oct 09 23:26:05 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/JuiceShop_Logo.png,200,OK,9,431,75029
+6970,Thu Oct 09 23:26:05 IST 2025,Thu Oct 09 23:26:05 IST 2025,GET,http://192.168.8.101:3000/assets/public,200,OK,5,469,75002
+6973,Thu Oct 09 23:26:05 IST 2025,Thu Oct 09 23:26:05 IST 2025,GET,http://192.168.8.101:3000/assets/public/images,200,OK,5,469,75002
+6972,Thu Oct 09 23:26:05 IST 2025,Thu Oct 09 23:26:05 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/JuiceShop_Logo.png,200,OK,88,431,75029
+6976,Thu Oct 09 23:26:05 IST 2025,Thu Oct 09 23:26:05 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products,301,Moved Permanently,16,439,179
+6974,Thu Oct 09 23:26:05 IST 2025,Thu Oct 09 23:26:05 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/hackingInstructor.png,200,OK,11,427,824
+6977,Thu Oct 09 23:26:05 IST 2025,Thu Oct 09 23:26:05 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/JuiceShop_Logo.png,200,OK,21,431,75029
+6979,Thu Oct 09 23:26:05 IST 2025,Thu Oct 09 23:26:05 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/JuiceShop_Logo.png,200,OK,19,431,75029
+6978,Thu Oct 09 23:26:05 IST 2025,Thu Oct 09 23:26:05 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/hackingInstructor.png,200,OK,19,427,824
+6980,Thu Oct 09 23:26:05 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/hackingInstructor.png,200,OK,122,427,824
+6981,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/hackingInstructor.png,200,OK,41,427,824
+6982,Thu Oct 09 23:26:05 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public,200,OK,12,469,75002
+6984,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/hackingInstructor.png,200,OK,42,427,824
+6985,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public/images,200,OK,51,469,75002
+6987,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/hackingInstructor.png,200,OK,14,427,824
+6988,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/hackingInstructor.png,200,OK,6,427,824
+6989,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/hackingInstructor.png,200,OK,36,427,824
+6990,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products,200,OK,17,469,75002
+6992,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/hackingInstructor.png,200,OK,8,427,824
+6993,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/hackingInstructor.png,200,OK,10,427,824
+6994,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/hackingInstructor.png,200,OK,7,427,824
+6995,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/hackingInstructor.png,200,OK,10,427,824
+6996,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/apple_juice.jpg,200,OK,194,431,15291
+6997,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public,200,OK,4,469,75002
+6999,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public/images,200,OK,199,469,75002
+7000,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products,200,OK,176,469,75002
+7003,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/apple_juice.jpg,200,OK,70,431,15291
+7004,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/apple_juice.jpg,200,OK,7,431,15291
+7005,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/apple_juice.jpg,200,OK,8,431,15291
+7006,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/apple_juice.jpg,200,OK,63,431,15291
+7007,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public,200,OK,35,469,75002
+7008,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/apple_juice.jpg,200,OK,113,431,15291
+7009,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products,200,OK,29,469,75002
+7011,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public/images,200,OK,32,469,75002
+7014,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/apple_juice.jpg,200,OK,10,431,15291
+7015,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/apple_juice.jpg,200,OK,14,431,15291
+7016,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/apple_juice.jpg,200,OK,13,431,15291
+7017,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/apple_juice.jpg,200,OK,18,431,15291
+7018,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/apple_juice.jpg,200,OK,14,431,15291
+7019,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/apple_juice.jpg,200,OK,9,431,15291
+7020,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products,200,OK,4,469,75002
+7022,Thu Oct 09 23:26:06 IST 2025,Thu Oct 09 23:26:06 IST 2025,GET,http://192.168.8.101:3000/assets/public/images,200,OK,4,469,75002
+7024,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/artwork2.jpg,200,OK,44,431,35878
+7025,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/apple_pressings.jpg,200,OK,63,431,29163
+7026,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/artwork2.jpg,200,OK,53,431,35878
+7027,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images,200,OK,8,469,75002
+7028,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/apple_pressings.jpg,200,OK,72,431,29163
+7031,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products,200,OK,58,469,75002
+7030,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/artwork2.jpg,200,OK,29,431,35878
+7033,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/apple_pressings.jpg,200,OK,43,431,29163
+7034,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/artwork2.jpg,200,OK,14,431,35878
+7035,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/apple_pressings.jpg,200,OK,11,431,29163
+7036,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/artwork2.jpg,200,OK,29,431,35878
+7037,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/apple_pressings.jpg,200,OK,26,431,29163
+7038,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/apple_pressings.jpg,200,OK,10,431,29163
+7039,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/artwork2.jpg,200,OK,24,431,35878
+7040,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/artwork2.jpg,200,OK,9,431,35878
+7041,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/apple_pressings.jpg,200,OK,20,431,29163
+7042,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/artwork2.jpg,200,OK,27,431,35878
+7043,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/apple_pressings.jpg,200,OK,18,431,29163
+7044,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/apple_pressings.jpg,200,OK,16,431,29163
+7045,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/artwork2.jpg,200,OK,22,431,35878
+7046,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/artwork2.jpg,200,OK,72,431,35878
+7047,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/apple_pressings.jpg,200,OK,91,431,29163
+7048,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/artwork2.jpg,200,OK,42,431,35878
+7049,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/apple_pressings.jpg,200,OK,69,431,29163
+7050,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products,200,OK,24,469,75002
+7051,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/artwork2.jpg,200,OK,48,431,35878
+7053,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images,200,OK,22,469,75002
+7055,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/apple_pressings.jpg,200,OK,15,431,29163
+7057,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/carrot_juice.jpeg,200,OK,12,431,19001
+7058,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/carrot_juice.jpeg,200,OK,14,431,19001
+7056,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/banana_juice.jpg,200,OK,14,431,19833
+7059,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/carrot_juice.jpeg,200,OK,11,431,19001
+7060,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/banana_juice.jpg,200,OK,15,431,19833
+7061,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/carrot_juice.jpeg,200,OK,24,431,19001
+7062,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/banana_juice.jpg,200,OK,26,431,19833
+7063,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/carrot_juice.jpeg,200,OK,17,431,19001
+7065,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/banana_juice.jpg,200,OK,102,431,19833
+7064,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products,200,OK,10,469,75002
+7067,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/carrot_juice.jpeg,200,OK,99,431,19001
+7066,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images,200,OK,12,469,75002
+7069,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:07 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/banana_juice.jpg,200,OK,26,431,19833
+7071,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/carrot_juice.jpeg,200,OK,62,431,19001
+7072,Thu Oct 09 23:26:07 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/banana_juice.jpg,200,OK,58,431,19833
+7073,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/carrot_juice.jpeg,200,OK,11,431,19001
+7074,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/carrot_juice.jpeg,200,OK,9,431,19001
+7075,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/banana_juice.jpg,200,OK,26,431,19833
+7076,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/carrot_juice.jpeg,200,OK,12,431,19001
+7077,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/carrot_juice.jpeg,200,OK,6,431,19001
+7078,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/carrot_juice.jpeg,200,OK,11,431,19001
+7079,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/banana_juice.jpg,200,OK,16,431,19833
+7080,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/banana_juice.jpg,200,OK,10,431,19833
+7081,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/banana_juice.jpg,200,OK,12,431,19833
+7082,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/banana_juice.jpg,200,OK,22,431,19833
+7083,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/banana_juice.jpg,200,OK,24,431,19833
+7085,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/eggfruit_juice.jpg,200,OK,45,431,15072
+7084,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images,200,OK,5,469,75002
+7087,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products,200,OK,32,469,75002
+7089,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/eggfruit_juice.jpg,200,OK,11,431,15072
+7090,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/eggfruit_juice.jpg,200,OK,28,431,15072
+7091,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/eggfruit_juice.jpg,200,OK,32,431,15072
+7092,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/eggfruit_juice.jpg,200,OK,8,431,15072
+7093,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/eggfruit_juice.jpg,200,OK,13,431,15072
+7094,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/eggfruit_juice.jpg,200,OK,9,431,15072
+7095,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/fan_facemask.jpg,200,OK,10,431,26934
+7096,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/eggfruit_juice.jpg,200,OK,8,431,15072
+7097,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/fan_facemask.jpg,200,OK,11,431,26934
+7098,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/eggfruit_juice.jpg,200,OK,31,431,15072
+7099,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/fan_facemask.jpg,200,OK,33,431,26934
+7100,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/eggfruit_juice.jpg,200,OK,12,431,15072
+7101,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/fan_facemask.jpg,200,OK,12,431,26934
+7102,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/eggfruit_juice.jpg,200,OK,8,431,15072
+7103,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/fan_facemask.jpg,200,OK,15,431,26934
+7104,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/eggfruit_juice.jpg,200,OK,13,431,15072
+7105,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/fan_facemask.jpg,200,OK,16,431,26934
+7106,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/fruit_press.jpg,200,OK,29,431,17080
+7107,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/fan_facemask.jpg,200,OK,122,431,26934
+7108,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/fruit_press.jpg,200,OK,42,431,17080
+7109,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products,200,OK,107,469,75002
+7111,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/green_smoothie.jpg,200,OK,29,431,15910
+7112,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/fan_facemask.jpg,200,OK,48,431,26934
+7113,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/fruit_press.jpg,200,OK,16,431,17080
+7114,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/green_smoothie.jpg,200,OK,10,431,15910
+7115,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/fan_facemask.jpg,200,OK,18,431,26934
+7116,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/green_smoothie.jpg,200,OK,14,431,15910
+7117,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/fan_facemask.jpg,200,OK,9,431,26934
+7118,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/green_smoothie.jpg,200,OK,12,431,15910
+7119,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/fan_facemask.jpg,200,OK,7,431,26934
+7120,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/fruit_press.jpg,200,OK,37,431,17080
+7121,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/green_smoothie.jpg,200,OK,32,431,15910
+7122,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/fan_facemask.jpg,200,OK,32,431,26934
+7123,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/fruit_press.jpg,200,OK,33,431,17080
+7124,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/green_smoothie.jpg,200,OK,46,431,15910
+7125,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/fruit_press.jpg,200,OK,40,431,17080
+7126,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/green_smoothie.jpg,200,OK,14,431,15910
+7128,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/green_smoothie.jpg,200,OK,12,431,15910
+7127,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/fruit_press.jpg,200,OK,18,431,17080
+7130,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/green_smoothie.jpg,200,OK,16,431,15910
+7129,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/fruit_press.jpg,200,OK,13,431,17080
+7131,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/fruit_press.jpg,200,OK,12,431,17080
+7132,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/green_smoothie.jpg,200,OK,14,431,15910
+7134,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/green_smoothie.jpg,200,OK,19,431,15910
+7135,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/fruit_press.jpg,200,OK,22,431,17080
+7133,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:08 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/lemon_juice.jpg,200,OK,18,431,17038
+7136,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/green_smoothie.jpg,200,OK,96,431,15910
+7137,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/lemon_juice.jpg,200,OK,100,431,17038
+7138,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/fruit_press.jpg,200,OK,98,431,17080
+7139,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/lemon_juice.jpg,200,OK,44,431,17038
+7140,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/fruit_press.jpg,200,OK,44,431,17080
+7142,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/lemon_juice.jpg,200,OK,23,431,17038
+7141,Thu Oct 09 23:26:08 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products,200,OK,87,469,75002
+7144,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/lemon_juice.jpg,200,OK,49,431,17038
+7145,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/lemon_juice.jpg,200,OK,11,431,17038
+7146,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/lemon_juice.jpg,200,OK,17,431,17038
+7147,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/lemon_juice.jpg,200,OK,8,431,17038
+7148,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/lemon_juice.jpg,200,OK,19,431,17038
+7149,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/melon_bike.jpeg,200,OK,21,431,21524
+7150,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/lemon_juice.jpg,200,OK,15,431,17038
+7151,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/permafrost.jpg,200,OK,19,432,93641
+7152,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/melon_bike.jpeg,200,OK,22,431,21524
+7153,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/lemon_juice.jpg,200,OK,34,431,17038
+7154,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/permafrost.jpg,200,OK,68,432,93641
+7157,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products,200,OK,10,469,75002
+7156,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/lemon_juice.jpg,200,OK,43,431,17038
+7155,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/melon_bike.jpeg,200,OK,81,431,21524
+7159,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/melon_bike.jpeg,200,OK,31,431,21524
+7160,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/permafrost.jpg,200,OK,85,432,93641
+7161,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/font-mfizz.woff,200,OK,71,430,40904
+7162,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/melon_bike.jpeg,200,OK,69,431,21524
+7163,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/permafrost.jpg,200,OK,41,432,93641
+7164,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/melon_bike.jpeg,200,OK,22,431,21524
+7166,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/melon_bike.jpeg,200,OK,20,431,21524
+7167,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/font-mfizz.woff,200,OK,46,430,40904
+7165,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/permafrost.jpg,200,OK,38,432,93641
+7168,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/melon_bike.jpeg,200,OK,7,431,21524
+7169,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/font-mfizz.woff,200,OK,14,430,40904
+7171,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/melon_bike.jpeg,200,OK,11,431,21524
+7170,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/permafrost.jpg,200,OK,22,432,93641
+7172,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products,200,OK,4,469,75002
+7174,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/font-mfizz.woff,200,OK,75,430,40904
+7175,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/melon_bike.jpeg,200,OK,75,431,21524
+7176,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/permafrost.jpg,200,OK,105,432,93641
+7177,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/melon_bike.jpeg,200,OK,24,431,21524
+7178,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/font-mfizz.woff,200,OK,42,430,40904
+7179,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/melon_bike.jpeg,200,OK,7,431,21524
+7180,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/font-mfizz.woff,200,OK,12,430,40904
+7181,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/permafrost.jpg,200,OK,22,432,93641
+7183,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:09 IST 2025,GET,http://192.168.8.101:3000/font-mfizz.woff,200,OK,22,430,40904
+7182,Thu Oct 09 23:26:09 IST 2025,Thu Oct 09 23:26:10 IST 2025,GET,http://192.168.8.101:3000/main.js,200,OK,55,483,454219
+7184,Thu Oct 09 23:26:10 IST 2025,Thu Oct 09 23:26:10 IST 2025,GET,http://192.168.8.101:3000/font-mfizz.woff,200,OK,26,430,40904
+7185,Thu Oct 09 23:26:10 IST 2025,Thu Oct 09 23:26:10 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/permafrost.jpg,200,OK,35,432,93641
+7186,Thu Oct 09 23:26:10 IST 2025,Thu Oct 09 23:26:10 IST 2025,GET,http://192.168.8.101:3000/rest,500,Internal Server Error,21,363,1825
+7187,Thu Oct 09 23:26:10 IST 2025,Thu Oct 09 23:26:10 IST 2025,GET,http://192.168.8.101:3000/font-mfizz.woff,200,OK,81,430,40904
+7188,Thu Oct 09 23:26:10 IST 2025,Thu Oct 09 23:26:10 IST 2025,GET,http://192.168.8.101:3000/polyfills.js,200,OK,61,481,34844
+7189,Thu Oct 09 23:26:10 IST 2025,Thu Oct 09 23:26:10 IST 2025,GET,http://192.168.8.101:3000/font-mfizz.woff,200,OK,10,430,40904
+7190,Thu Oct 09 23:26:10 IST 2025,Thu Oct 09 23:26:10 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/permafrost.jpg,200,OK,74,432,93641
+7191,Thu Oct 09 23:26:10 IST 2025,Thu Oct 09 23:26:10 IST 2025,GET,http://192.168.8.101:3000/polyfills.js,200,OK,11,481,34844
+7192,Thu Oct 09 23:26:10 IST 2025,Thu Oct 09 23:26:10 IST 2025,GET,http://192.168.8.101:3000/font-mfizz.woff,200,OK,18,430,40904
+7195,Thu Oct 09 23:26:10 IST 2025,Thu Oct 09 23:26:10 IST 2025,GET,http://192.168.8.101:3000/polyfills.js,200,OK,52,481,34844
+7194,Thu Oct 09 23:26:10 IST 2025,Thu Oct 09 23:26:10 IST 2025,GET,http://192.168.8.101:3000/font-mfizz.woff,200,OK,63,430,40904
+7193,Thu Oct 09 23:26:10 IST 2025,Thu Oct 09 23:26:10 IST 2025,GET,http://192.168.8.101:3000/main.js,200,OK,174,483,454219
+7196,Thu Oct 09 23:26:10 IST 2025,Thu Oct 09 23:26:10 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/permafrost.jpg,200,OK,48,432,93641
+7197,Thu Oct 09 23:26:10 IST 2025,Thu Oct 09 23:26:10 IST 2025,GET,http://192.168.8.101:3000/polyfills.js,200,OK,36,481,34844
+7198,Thu Oct 09 23:26:10 IST 2025,Thu Oct 09 23:26:10 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products/permafrost.jpg,200,OK,31,432,93641
+7201,Thu Oct 09 23:26:10 IST 2025,Thu Oct 09 23:26:10 IST 2025,GET,http://192.168.8.101:3000/rest/admin,500,Internal Server Error,20,363,1837
+7200,Thu Oct 09 23:26:10 IST 2025,Thu Oct 09 23:26:10 IST 2025,GET,http://192.168.8.101:3000/rest,500,Internal Server Error,30,363,1825
+7199,Thu Oct 09 23:26:10 IST 2025,Thu Oct 09 23:26:10 IST 2025,GET,http://192.168.8.101:3000/polyfills.js,200,OK,69,481,34844
+7203,Thu Oct 09 23:26:10 IST 2025,Thu Oct 09 23:26:10 IST 2025,GET,http://192.168.8.101:3000/rest,500,Internal Server Error,13,363,1825
+7202,Thu Oct 09 23:26:10 IST 2025,Thu Oct 09 23:26:10 IST 2025,GET,http://192.168.8.101:3000/main.js,200,OK,134,483,454219
+7204,Thu Oct 09 23:26:10 IST 2025,Thu Oct 09 23:26:10 IST 2025,GET,http://192.168.8.101:3000/rest/admin,500,Internal Server Error,34,363,1837
+7205,Thu Oct 09 23:26:10 IST 2025,Thu Oct 09 23:26:11 IST 2025,GET,http://192.168.8.101:3000/rest,500,Internal Server Error,46,363,1825
+7206,Thu Oct 09 23:26:10 IST 2025,Thu Oct 09 23:26:11 IST 2025,GET,http://192.168.8.101:3000/polyfills.js,200,OK,119,481,34844
+7207,Thu Oct 09 23:26:11 IST 2025,Thu Oct 09 23:26:11 IST 2025,GET,http://192.168.8.101:3000/rest/admin,500,Internal Server Error,57,363,1837
+7208,Thu Oct 09 23:26:11 IST 2025,Thu Oct 09 23:26:11 IST 2025,GET,http://192.168.8.101:3000/rest,500,Internal Server Error,88,363,1825
+7209,Thu Oct 09 23:26:11 IST 2025,Thu Oct 09 23:26:11 IST 2025,GET,http://192.168.8.101:3000/rest/admin,500,Internal Server Error,60,363,1837
+7210,Thu Oct 09 23:26:11 IST 2025,Thu Oct 09 23:26:11 IST 2025,GET,http://192.168.8.101:3000/polyfills.js,200,OK,90,481,34844
+7211,Thu Oct 09 23:26:11 IST 2025,Thu Oct 09 23:26:11 IST 2025,GET,http://192.168.8.101:3000/rest,500,Internal Server Error,61,363,1825
+7213,Thu Oct 09 23:26:11 IST 2025,Thu Oct 09 23:26:11 IST 2025,GET,http://192.168.8.101:3000/rest/admin,500,Internal Server Error,84,363,1837
+7212,Thu Oct 09 23:26:10 IST 2025,Thu Oct 09 23:26:11 IST 2025,GET,http://192.168.8.101:3000/main.js,200,OK,248,483,454219
+7214,Thu Oct 09 23:26:11 IST 2025,Thu Oct 09 23:26:11 IST 2025,GET,http://192.168.8.101:3000/rest,500,Internal Server Error,115,363,1825
+7215,Thu Oct 09 23:26:11 IST 2025,Thu Oct 09 23:26:11 IST 2025,GET,http://192.168.8.101:3000/polyfills.js,200,OK,150,481,34844
+7216,Thu Oct 09 23:26:11 IST 2025,Thu Oct 09 23:26:11 IST 2025,GET,http://192.168.8.101:3000/rest/admin,500,Internal Server Error,83,363,1837
+7217,Thu Oct 09 23:26:11 IST 2025,Thu Oct 09 23:26:11 IST 2025,GET,http://192.168.8.101:3000/rest,500,Internal Server Error,49,363,1825
+7218,Thu Oct 09 23:26:11 IST 2025,Thu Oct 09 23:26:11 IST 2025,GET,http://192.168.8.101:3000/polyfills.js,200,OK,48,481,34844
+7219,Thu Oct 09 23:26:11 IST 2025,Thu Oct 09 23:26:11 IST 2025,GET,http://192.168.8.101:3000/rest/admin,500,Internal Server Error,45,363,1837
+7220,Thu Oct 09 23:26:11 IST 2025,Thu Oct 09 23:26:11 IST 2025,GET,http://192.168.8.101:3000/rest,500,Internal Server Error,70,363,1825
+7221,Thu Oct 09 23:26:11 IST 2025,Thu Oct 09 23:26:11 IST 2025,GET,http://192.168.8.101:3000/rest/admin,500,Internal Server Error,117,363,1837
+7223,Thu Oct 09 23:26:11 IST 2025,Thu Oct 09 23:26:11 IST 2025,GET,http://192.168.8.101:3000/rest,500,Internal Server Error,139,363,1825
+7224,Thu Oct 09 23:26:11 IST 2025,Thu Oct 09 23:26:11 IST 2025,GET,http://192.168.8.101:3000/polyfills.js,200,OK,169,481,34844
+7225,Thu Oct 09 23:26:11 IST 2025,Thu Oct 09 23:26:11 IST 2025,GET,http://192.168.8.101:3000/rest,500,Internal Server Error,44,363,1825
+7226,Thu Oct 09 23:26:11 IST 2025,Thu Oct 09 23:26:11 IST 2025,GET,http://192.168.8.101:3000/rest/admin,500,Internal Server Error,125,363,1837
+7222,Thu Oct 09 23:26:11 IST 2025,Thu Oct 09 23:26:11 IST 2025,GET,http://192.168.8.101:3000/main.js,200,OK,310,483,454219
+7227,Thu Oct 09 23:26:11 IST 2025,Thu Oct 09 23:26:11 IST 2025,GET,http://192.168.8.101:3000/rest,500,Internal Server Error,98,363,1825
+7228,Thu Oct 09 23:26:11 IST 2025,Thu Oct 09 23:26:11 IST 2025,GET,http://192.168.8.101:3000/polyfills.js,200,OK,151,481,34844
+7229,Thu Oct 09 23:26:11 IST 2025,Thu Oct 09 23:26:11 IST 2025,GET,http://192.168.8.101:3000/rest/admin,500,Internal Server Error,128,363,1837
+7230,Thu Oct 09 23:26:11 IST 2025,Thu Oct 09 23:26:11 IST 2025,GET,http://192.168.8.101:3000/rest,500,Internal Server Error,95,363,1825
+7231,Thu Oct 09 23:26:11 IST 2025,Thu Oct 09 23:26:11 IST 2025,GET,http://192.168.8.101:3000/rest/admin,500,Internal Server Error,68,363,1837
+7232,Thu Oct 09 23:26:11 IST 2025,Thu Oct 09 23:26:11 IST 2025,GET,http://192.168.8.101:3000/polyfills.js,200,OK,127,481,34844
+7233,Thu Oct 09 23:26:11 IST 2025,Thu Oct 09 23:26:11 IST 2025,GET,http://192.168.8.101:3000/rest/admin,500,Internal Server Error,70,363,1837
+7234,Thu Oct 09 23:26:11 IST 2025,Thu Oct 09 23:26:11 IST 2025,GET,http://192.168.8.101:3000/rest/admin,500,Internal Server Error,22,363,1837
+7235,Thu Oct 09 23:26:11 IST 2025,Thu Oct 09 23:26:12 IST 2025,GET,http://192.168.8.101:3000/main.js,200,OK,330,483,454219
+7236,Thu Oct 09 23:26:12 IST 2025,Thu Oct 09 23:26:12 IST 2025,GET,http://192.168.8.101:3000/rest/admin/application-configuration,200,OK,20,389,21730
+7237,Thu Oct 09 23:26:12 IST 2025,Thu Oct 09 23:26:12 IST 2025,GET,http://192.168.8.101:3000/rest/admin/application-version,200,OK,104,384,20
+7238,Thu Oct 09 23:26:12 IST 2025,Thu Oct 09 23:26:12 IST 2025,GET,http://192.168.8.101:3000/rest/products,500,Internal Server Error,101,363,1843
+7239,Thu Oct 09 23:26:12 IST 2025,Thu Oct 09 23:26:12 IST 2025,GET,http://192.168.8.101:3000/rest/admin/application-configuration,200,OK,93,389,21730
+7240,Thu Oct 09 23:26:12 IST 2025,Thu Oct 09 23:26:12 IST 2025,GET,http://192.168.8.101:3000/rest/admin/application-version,200,OK,202,384,20
+7241,Thu Oct 09 23:26:12 IST 2025,Thu Oct 09 23:26:12 IST 2025,GET,http://192.168.8.101:3000/rest/admin/application-configuration,200,OK,141,389,21730
+7242,Thu Oct 09 23:26:12 IST 2025,Thu Oct 09 23:26:12 IST 2025,GET,http://192.168.8.101:3000/rest/admin/application-version,200,OK,83,384,20
+7243,Thu Oct 09 23:26:12 IST 2025,Thu Oct 09 23:26:12 IST 2025,GET,http://192.168.8.101:3000/rest/admin/application-configuration,200,OK,87,389,21730
+7244,Thu Oct 09 23:26:12 IST 2025,Thu Oct 09 23:26:12 IST 2025,GET,http://192.168.8.101:3000/main.js,200,OK,476,483,454219
+7245,Thu Oct 09 23:26:12 IST 2025,Thu Oct 09 23:26:12 IST 2025,GET,http://192.168.8.101:3000/rest/admin/application-version,200,OK,111,384,20
+7246,Thu Oct 09 23:26:12 IST 2025,Thu Oct 09 23:26:12 IST 2025,GET,http://192.168.8.101:3000/rest/admin/application-configuration,200,OK,140,389,21730
+7247,Thu Oct 09 23:26:12 IST 2025,Thu Oct 09 23:26:12 IST 2025,GET,http://192.168.8.101:3000/rest/admin/application-version,200,OK,112,384,20
+7248,Thu Oct 09 23:26:12 IST 2025,Thu Oct 09 23:26:12 IST 2025,GET,http://192.168.8.101:3000/rest/languages,200,OK,706,388,4847
+7249,Thu Oct 09 23:26:12 IST 2025,Thu Oct 09 23:26:12 IST 2025,GET,http://192.168.8.101:3000/rest/admin/application-configuration,200,OK,181,389,21730
+7250,Thu Oct 09 23:26:12 IST 2025,Thu Oct 09 23:26:12 IST 2025,GET,http://192.168.8.101:3000/rest/admin/application-version,200,OK,172,384,20
+7251,Thu Oct 09 23:26:12 IST 2025,Thu Oct 09 23:26:12 IST 2025,GET,http://192.168.8.101:3000/rest/admin/application-configuration,200,OK,110,389,21730
+7252,Thu Oct 09 23:26:12 IST 2025,Thu Oct 09 23:26:12 IST 2025,GET,http://192.168.8.101:3000/rest/admin/application-version,200,OK,88,384,20
+7253,Thu Oct 09 23:26:12 IST 2025,Thu Oct 09 23:26:13 IST 2025,GET,http://192.168.8.101:3000/rest/admin/application-configuration,200,OK,82,389,21730
+7254,Thu Oct 09 23:26:12 IST 2025,Thu Oct 09 23:26:13 IST 2025,GET,http://192.168.8.101:3000/rest/admin/application-version,200,OK,92,384,20
+7256,Thu Oct 09 23:26:13 IST 2025,Thu Oct 09 23:26:13 IST 2025,GET,http://192.168.8.101:3000/rest/admin/application-version,200,OK,57,384,20
+7255,Thu Oct 09 23:26:12 IST 2025,Thu Oct 09 23:26:13 IST 2025,GET,http://192.168.8.101:3000/main.js,200,OK,453,483,454219
+7257,Thu Oct 09 23:26:13 IST 2025,Thu Oct 09 23:26:13 IST 2025,GET,http://192.168.8.101:3000/rest/admin/application-configuration,200,OK,165,389,21730
+7258,Thu Oct 09 23:26:13 IST 2025,Thu Oct 09 23:26:13 IST 2025,GET,http://192.168.8.101:3000/rest/admin/application-version,200,OK,88,384,20
+7259,Thu Oct 09 23:26:12 IST 2025,Thu Oct 09 23:26:13 IST 2025,GET,http://192.168.8.101:3000/rest/languages,200,OK,524,388,4847
+7260,Thu Oct 09 23:26:13 IST 2025,Thu Oct 09 23:26:13 IST 2025,GET,http://192.168.8.101:3000/rest/admin/application-configuration,200,OK,162,389,21730
+7261,Thu Oct 09 23:26:13 IST 2025,Thu Oct 09 23:26:13 IST 2025,GET,http://192.168.8.101:3000/rest/admin/application-version,200,OK,171,384,20
+7262,Thu Oct 09 23:26:13 IST 2025,Thu Oct 09 23:26:13 IST 2025,GET,http://192.168.8.101:3000/rest/admin/application-configuration,200,OK,104,389,21730
+7263,Thu Oct 09 23:26:13 IST 2025,Thu Oct 09 23:26:13 IST 2025,GET,http://192.168.8.101:3000/rest/languages,200,OK,355,388,4847
+7264,Thu Oct 09 23:26:13 IST 2025,Thu Oct 09 23:26:13 IST 2025,GET,http://192.168.8.101:3000/rest/admin/application-version,200,OK,315,384,20
+7265,Thu Oct 09 23:26:13 IST 2025,Thu Oct 09 23:26:13 IST 2025,GET,http://192.168.8.101:3000/main.js,200,OK,570,483,454219
+7266,Thu Oct 09 23:26:13 IST 2025,Thu Oct 09 23:26:13 IST 2025,GET,http://192.168.8.101:3000/rest/admin/application-configuration,200,OK,53,389,21730
+7267,Thu Oct 09 23:26:13 IST 2025,Thu Oct 09 23:26:13 IST 2025,GET,http://192.168.8.101:3000/main.js,200,OK,180,483,454219
+7268,Thu Oct 09 23:26:13 IST 2025,Thu Oct 09 23:26:14 IST 2025,GET,http://192.168.8.101:3000/rest/languages,200,OK,306,388,4847
+7269,Thu Oct 09 23:26:13 IST 2025,Thu Oct 09 23:26:14 IST 2025,GET,http://192.168.8.101:3000/rest/products,500,Internal Server Error,119,363,1843
+7270,Thu Oct 09 23:26:13 IST 2025,Thu Oct 09 23:26:14 IST 2025,GET,http://192.168.8.101:3000/rest/products/1,500,Internal Server Error,149,363,1847
+7271,Thu Oct 09 23:26:14 IST 2025,Thu Oct 09 23:26:14 IST 2025,GET,http://192.168.8.101:3000/rest/products,500,Internal Server Error,127,363,1843
+7272,Thu Oct 09 23:26:14 IST 2025,Thu Oct 09 23:26:14 IST 2025,GET,http://192.168.8.101:3000/rest/products/1,500,Internal Server Error,115,363,1847
+7273,Thu Oct 09 23:26:14 IST 2025,Thu Oct 09 23:26:14 IST 2025,GET,http://192.168.8.101:3000/rest/products,500,Internal Server Error,91,363,1843
+7274,Thu Oct 09 23:26:14 IST 2025,Thu Oct 09 23:26:14 IST 2025,GET,http://192.168.8.101:3000/rest/products/1,500,Internal Server Error,118,363,1847
+7275,Thu Oct 09 23:26:14 IST 2025,Thu Oct 09 23:26:14 IST 2025,GET,http://192.168.8.101:3000/rest/products,500,Internal Server Error,186,363,1843
+7276,Thu Oct 09 23:26:13 IST 2025,Thu Oct 09 23:26:14 IST 2025,GET,http://192.168.8.101:3000/main.js,200,OK,509,483,454219
+7277,Thu Oct 09 23:26:14 IST 2025,Thu Oct 09 23:26:14 IST 2025,GET,http://192.168.8.101:3000/rest/products/1,500,Internal Server Error,171,363,1847
+7278,Thu Oct 09 23:26:14 IST 2025,Thu Oct 09 23:26:14 IST 2025,GET,http://192.168.8.101:3000/rest/languages,200,OK,577,388,4847
+7279,Thu Oct 09 23:26:14 IST 2025,Thu Oct 09 23:26:14 IST 2025,GET,http://192.168.8.101:3000/rest/products,500,Internal Server Error,181,363,1843
+7280,Thu Oct 09 23:26:14 IST 2025,Thu Oct 09 23:26:14 IST 2025,GET,http://192.168.8.101:3000/rest/products/1,500,Internal Server Error,214,363,1847
+7281,Thu Oct 09 23:26:14 IST 2025,Thu Oct 09 23:26:14 IST 2025,GET,http://192.168.8.101:3000/rest/products,500,Internal Server Error,167,363,1843
+7282,Thu Oct 09 23:26:14 IST 2025,Thu Oct 09 23:26:14 IST 2025,GET,http://192.168.8.101:3000/rest/products/1,500,Internal Server Error,89,363,1847
+7283,Thu Oct 09 23:26:14 IST 2025,Thu Oct 09 23:26:14 IST 2025,GET,http://192.168.8.101:3000/rest/products,500,Internal Server Error,79,363,1843
+7284,Thu Oct 09 23:26:14 IST 2025,Thu Oct 09 23:26:14 IST 2025,GET,http://192.168.8.101:3000/main.js,200,OK,477,483,454219
+7285,Thu Oct 09 23:26:14 IST 2025,Thu Oct 09 23:26:15 IST 2025,GET,http://192.168.8.101:3000/rest/products/1,500,Internal Server Error,488,363,1847
+7286,Thu Oct 09 23:26:14 IST 2025,Thu Oct 09 23:26:15 IST 2025,GET,http://192.168.8.101:3000/rest/languages,200,OK,1019,388,4847
+7287,Thu Oct 09 23:26:15 IST 2025,Thu Oct 09 23:26:15 IST 2025,GET,http://192.168.8.101:3000/rest/products/1/reviews,200,OK,542,385,172
+7289,Thu Oct 09 23:26:14 IST 2025,Thu Oct 09 23:26:15 IST 2025,GET,http://192.168.8.101:3000/rest/products,500,Internal Server Error,812,363,1843
+7290,Thu Oct 09 23:26:15 IST 2025,Thu Oct 09 23:26:15 IST 2025,GET,http://192.168.8.101:3000/rest/products/1/reviews,200,OK,121,385,172
+7292,Thu Oct 09 23:26:15 IST 2025,Thu Oct 09 23:26:15 IST 2025,GET,http://192.168.8.101:3000/rest/products/1,500,Internal Server Error,499,363,1847
+7293,Thu Oct 09 23:26:15 IST 2025,Thu Oct 09 23:26:15 IST 2025,GET,http://192.168.8.101:3000/rest/products/1,500,Internal Server Error,58,363,1847
+7294,Thu Oct 09 23:26:15 IST 2025,Thu Oct 09 23:26:15 IST 2025,GET,http://192.168.8.101:3000/rest/products,500,Internal Server Error,221,363,1843
+7295,Thu Oct 09 23:26:15 IST 2025,Thu Oct 09 23:26:15 IST 2025,GET,http://192.168.8.101:3000/rest/products/1/reviews,200,OK,114,385,172
+7297,Thu Oct 09 23:26:15 IST 2025,Thu Oct 09 23:26:16 IST 2025,GET,http://192.168.8.101:3000/rest/products/1,500,Internal Server Error,161,363,1847
+7298,Thu Oct 09 23:26:15 IST 2025,Thu Oct 09 23:26:16 IST 2025,GET,http://192.168.8.101:3000/rest/products,500,Internal Server Error,262,363,1843
+7299,Thu Oct 09 23:26:16 IST 2025,Thu Oct 09 23:26:16 IST 2025,GET,http://192.168.8.101:3000/rest/products/1,500,Internal Server Error,149,363,1847
+7300,Thu Oct 09 23:26:15 IST 2025,Thu Oct 09 23:26:16 IST 2025,GET,http://192.168.8.101:3000/rest/languages,200,OK,699,388,4847
+7301,Thu Oct 09 23:26:16 IST 2025,Thu Oct 09 23:26:16 IST 2025,GET,http://192.168.8.101:3000/rest/products/1/reviews,200,OK,303,385,172
+7303,Thu Oct 09 23:26:16 IST 2025,Thu Oct 09 23:26:16 IST 2025,GET,http://192.168.8.101:3000/rest/products,500,Internal Server Error,267,363,1843
+7304,Thu Oct 09 23:26:16 IST 2025,Thu Oct 09 23:26:16 IST 2025,GET,http://192.168.8.101:3000/rest/products/1,500,Internal Server Error,270,363,1847
+7305,Thu Oct 09 23:26:16 IST 2025,Thu Oct 09 23:26:16 IST 2025,GET,http://192.168.8.101:3000/rest/products/1/reviews,200,OK,118,385,172
+7307,Thu Oct 09 23:26:16 IST 2025,Thu Oct 09 23:26:16 IST 2025,GET,http://192.168.8.101:3000/rest/products,500,Internal Server Error,134,363,1843
+7308,Thu Oct 09 23:26:16 IST 2025,Thu Oct 09 23:26:16 IST 2025,GET,http://192.168.8.101:3000/rest/products/1,500,Internal Server Error,143,363,1847
+7309,Thu Oct 09 23:26:16 IST 2025,Thu Oct 09 23:26:16 IST 2025,GET,http://192.168.8.101:3000/rest/products/1/reviews,200,OK,79,385,172
+7311,Thu Oct 09 23:26:16 IST 2025,Thu Oct 09 23:26:16 IST 2025,GET,http://192.168.8.101:3000/rest/languages,200,OK,498,388,4847
+7312,Thu Oct 09 23:26:16 IST 2025,Thu Oct 09 23:26:16 IST 2025,GET,http://192.168.8.101:3000/rest/products/1/reviews,200,OK,131,385,172
+7314,Thu Oct 09 23:26:16 IST 2025,Thu Oct 09 23:26:16 IST 2025,GET,http://192.168.8.101:3000/rest/user,500,Internal Server Error,100,363,1835
+7315,Thu Oct 09 23:26:16 IST 2025,Thu Oct 09 23:26:16 IST 2025,GET,http://192.168.8.101:3000/rest/products/1/reviews,200,OK,63,385,172
+7317,Thu Oct 09 23:26:16 IST 2025,Thu Oct 09 23:26:17 IST 2025,GET,http://192.168.8.101:3000/rest/user,500,Internal Server Error,90,363,1835
+7318,Thu Oct 09 23:26:17 IST 2025,Thu Oct 09 23:26:17 IST 2025,GET,http://192.168.8.101:3000/rest/user,500,Internal Server Error,78,363,1835
+7319,Thu Oct 09 23:26:16 IST 2025,Thu Oct 09 23:26:17 IST 2025,GET,http://192.168.8.101:3000/rest/languages,200,OK,374,388,4847
+7320,Thu Oct 09 23:26:17 IST 2025,Thu Oct 09 23:26:17 IST 2025,GET,http://192.168.8.101:3000/rest/products/1/reviews,200,OK,170,385,172
+7322,Thu Oct 09 23:26:17 IST 2025,Thu Oct 09 23:26:17 IST 2025,GET,http://192.168.8.101:3000/rest/user,500,Internal Server Error,192,363,1835
+7323,Thu Oct 09 23:26:17 IST 2025,Thu Oct 09 23:26:17 IST 2025,GET,http://192.168.8.101:3000/rest/products/1/reviews,200,OK,121,385,172
+7325,Thu Oct 09 23:26:17 IST 2025,Thu Oct 09 23:26:17 IST 2025,GET,http://192.168.8.101:3000/rest/user,500,Internal Server Error,93,363,1835
+7326,Thu Oct 09 23:26:17 IST 2025,Thu Oct 09 23:26:17 IST 2025,GET,http://192.168.8.101:3000/rest/user,500,Internal Server Error,39,363,1835
+7327,Thu Oct 09 23:26:17 IST 2025,Thu Oct 09 23:26:17 IST 2025,GET,http://192.168.8.101:3000/rest/products/1/reviews,200,OK,130,385,172
+7329,Thu Oct 09 23:26:17 IST 2025,Thu Oct 09 23:26:17 IST 2025,GET,http://192.168.8.101:3000/rest/user,500,Internal Server Error,145,363,1835
+7330,Thu Oct 09 23:26:17 IST 2025,Thu Oct 09 23:26:17 IST 2025,GET,http://192.168.8.101:3000/rest/languages,200,OK,504,388,4847
+7331,Thu Oct 09 23:26:17 IST 2025,Thu Oct 09 23:26:17 IST 2025,GET,http://192.168.8.101:3000/rest/products/1/reviews,200,OK,236,385,172
+7333,Thu Oct 09 23:26:17 IST 2025,Thu Oct 09 23:26:17 IST 2025,GET,http://192.168.8.101:3000/rest/user,500,Internal Server Error,225,363,1835
+7334,Thu Oct 09 23:26:17 IST 2025,Thu Oct 09 23:26:17 IST 2025,GET,http://192.168.8.101:3000/rest/user,500,Internal Server Error,82,363,1835
+7335,Thu Oct 09 23:26:17 IST 2025,Thu Oct 09 23:26:17 IST 2025,GET,http://192.168.8.101:3000/rest/user,500,Internal Server Error,35,363,1835
+7336,Thu Oct 09 23:26:17 IST 2025,Thu Oct 09 23:26:18 IST 2025,GET,http://192.168.8.101:3000/rest/user,500,Internal Server Error,108,363,1835
+7337,Thu Oct 09 23:26:17 IST 2025,Thu Oct 09 23:26:18 IST 2025,GET,http://192.168.8.101:3000/rest/languages,200,OK,412,388,4847
+7338,Thu Oct 09 23:26:17 IST 2025,Thu Oct 09 23:26:18 IST 2025,GET,http://192.168.8.101:3000/rest/user/whoami,200,OK,180,383,11
+7339,Thu Oct 09 23:26:18 IST 2025,Thu Oct 09 23:26:18 IST 2025,GET,http://192.168.8.101:3000/rest/user,500,Internal Server Error,141,363,1835
+7340,Thu Oct 09 23:26:18 IST 2025,Thu Oct 09 23:26:18 IST 2025,GET,http://192.168.8.101:3000/rest/user/whoami,200,OK,95,383,11
+7341,Thu Oct 09 23:26:18 IST 2025,Thu Oct 09 23:26:18 IST 2025,GET,http://192.168.8.101:3000/rest/user,500,Internal Server Error,122,363,1835
+7342,Thu Oct 09 23:26:18 IST 2025,Thu Oct 09 23:26:18 IST 2025,GET,http://192.168.8.101:3000/rest/user/whoami,200,OK,78,383,11
+7343,Thu Oct 09 23:26:18 IST 2025,Thu Oct 09 23:26:18 IST 2025,GET,http://192.168.8.101:3000/rest/user/whoami,200,OK,48,383,11
+7344,Thu Oct 09 23:26:18 IST 2025,Thu Oct 09 23:26:18 IST 2025,GET,http://192.168.8.101:3000/rest/user/whoami,200,OK,48,383,11
+7345,Thu Oct 09 23:26:18 IST 2025,Thu Oct 09 23:26:18 IST 2025,GET,http://192.168.8.101:3000/rest/languages,200,OK,409,388,4847
+7346,Thu Oct 09 23:26:18 IST 2025,Thu Oct 09 23:26:18 IST 2025,GET,http://192.168.8.101:3000/rest/user/whoami,200,OK,125,383,11
+7347,Thu Oct 09 23:26:18 IST 2025,Thu Oct 09 23:26:18 IST 2025,GET,http://192.168.8.101:3000/runtime.js,200,OK,208,479,3339
+7348,Thu Oct 09 23:26:18 IST 2025,Thu Oct 09 23:26:18 IST 2025,GET,http://192.168.8.101:3000/rest/user/whoami,200,OK,35,383,11
+7350,Thu Oct 09 23:26:18 IST 2025,Thu Oct 09 23:26:18 IST 2025,GET,http://192.168.8.101:3000/runtime.js,200,OK,73,479,3339
+7351,Thu Oct 09 23:26:18 IST 2025,Thu Oct 09 23:26:18 IST 2025,GET,http://192.168.8.101:3000/rest/user/whoami,200,OK,50,383,11
+7352,Thu Oct 09 23:26:18 IST 2025,Thu Oct 09 23:26:18 IST 2025,GET,http://192.168.8.101:3000/rest/user/whoami,200,OK,10,383,11
+7349,Thu Oct 09 23:26:18 IST 2025,Thu Oct 09 23:26:18 IST 2025,GET,http://192.168.8.101:3000/socket.io,200,OK,255,469,75002
+7353,Thu Oct 09 23:26:18 IST 2025,Thu Oct 09 23:26:18 IST 2025,GET,http://192.168.8.101:3000/runtime.js,200,OK,32,479,3339
+7354,Thu Oct 09 23:26:18 IST 2025,Thu Oct 09 23:26:18 IST 2025,GET,http://192.168.8.101:3000/rest/user/whoami,200,OK,26,383,11
+7355,Thu Oct 09 23:26:18 IST 2025,Thu Oct 09 23:26:18 IST 2025,GET,http://192.168.8.101:3000/rest/user/whoami,200,OK,39,383,11
+7356,Thu Oct 09 23:26:18 IST 2025,Thu Oct 09 23:26:19 IST 2025,GET,http://192.168.8.101:3000/runtime.js,200,OK,111,479,3339
+7357,Thu Oct 09 23:26:18 IST 2025,Thu Oct 09 23:26:19 IST 2025,GET,http://192.168.8.101:3000/rest/user/whoami,200,OK,91,383,11
+7359,Thu Oct 09 23:26:19 IST 2025,Thu Oct 09 23:26:19 IST 2025,GET,http://192.168.8.101:3000/runtime.js,200,OK,58,479,3339
+7358,Thu Oct 09 23:26:18 IST 2025,Thu Oct 09 23:26:19 IST 2025,GET,http://192.168.8.101:3000/socket.io,200,OK,144,469,75002
+7360,Thu Oct 09 23:26:19 IST 2025,Thu Oct 09 23:26:19 IST 2025,GET,http://192.168.8.101:3000/runtime.js,200,OK,62,479,3339
+7361,Thu Oct 09 23:26:19 IST 2025,Thu Oct 09 23:26:19 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKj-&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,16,230,41
+7363,Thu Oct 09 23:26:19 IST 2025,Thu Oct 09 23:26:19 IST 2025,GET,http://192.168.8.101:3000/runtime.js,200,OK,21,479,3339
+7365,Thu Oct 09 23:26:19 IST 2025,Thu Oct 09 23:26:19 IST 2025,GET,http://192.168.8.101:3000/runtime.js,200,OK,9,479,3339
+7364,Thu Oct 09 23:26:19 IST 2025,Thu Oct 09 23:26:19 IST 2025,GET,http://192.168.8.101:3000/socket.io,200,OK,80,469,75002
+7366,Thu Oct 09 23:26:19 IST 2025,Thu Oct 09 23:26:19 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKj-&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,23,230,41
+7367,Thu Oct 09 23:26:19 IST 2025,Thu Oct 09 23:26:19 IST 2025,GET,http://192.168.8.101:3000/runtime.js,200,OK,32,479,3339
+7369,Thu Oct 09 23:26:19 IST 2025,Thu Oct 09 23:26:19 IST 2025,GET,http://192.168.8.101:3000/runtime.js,200,OK,28,479,3339
+7370,Thu Oct 09 23:26:19 IST 2025,Thu Oct 09 23:26:19 IST 2025,GET,http://192.168.8.101:3000/socket.io,200,OK,31,469,75002
+7371,Thu Oct 09 23:26:19 IST 2025,Thu Oct 09 23:26:19 IST 2025,GET,http://192.168.8.101:3000/runtime.js,200,OK,5,479,3339
+7372,Thu Oct 09 23:26:19 IST 2025,Thu Oct 09 23:26:19 IST 2025,GET,http://192.168.8.101:3000/socket.io,200,OK,52,469,75002
+7373,Thu Oct 09 23:26:19 IST 2025,Thu Oct 09 23:26:19 IST 2025,GET,http://192.168.8.101:3000/runtime.js,200,OK,51,479,3339
+7374,Thu Oct 09 23:26:19 IST 2025,Thu Oct 09 23:26:19 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKj-&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,16,230,41
+7376,Thu Oct 09 23:26:19 IST 2025,Thu Oct 09 23:26:19 IST 2025,GET,http://192.168.8.101:3000/socket.io,200,OK,37,469,75002
+7377,Thu Oct 09 23:26:19 IST 2025,Thu Oct 09 23:26:19 IST 2025,GET,http://192.168.8.101:3000/socket.io,200,OK,45,469,75002
+7378,Thu Oct 09 23:26:19 IST 2025,Thu Oct 09 23:26:19 IST 2025,GET,http://192.168.8.101:3000/socket.io,200,OK,34,469,75002
+7379,Thu Oct 09 23:26:19 IST 2025,Thu Oct 09 23:26:19 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKj-&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,5,230,41
+7382,Thu Oct 09 23:26:19 IST 2025,Thu Oct 09 23:26:19 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=websocket&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,44,92,18
+7381,Thu Oct 09 23:26:19 IST 2025,Thu Oct 09 23:26:19 IST 2025,GET,http://192.168.8.101:3000/socket.io,200,OK,63,469,75002
+7384,Thu Oct 09 23:26:19 IST 2025,Thu Oct 09 23:26:19 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKj-&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,21,230,41
+7385,Thu Oct 09 23:26:19 IST 2025,Thu Oct 09 23:26:19 IST 2025,GET,http://192.168.8.101:3000/socket.io,200,OK,64,469,75002
+7388,Thu Oct 09 23:26:19 IST 2025,Thu Oct 09 23:26:19 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=websocket&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,7,92,18
+7387,Thu Oct 09 23:26:19 IST 2025,Thu Oct 09 23:26:19 IST 2025,GET,http://192.168.8.101:3000/socket.io,200,OK,41,469,75002
+7390,Thu Oct 09 23:26:19 IST 2025,Thu Oct 09 23:26:19 IST 2025,GET,http://192.168.8.101:3000/socket.io,200,OK,47,469,75002
+7391,Thu Oct 09 23:26:19 IST 2025,Thu Oct 09 23:26:19 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKj-&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,27,230,41
+7393,Thu Oct 09 23:26:19 IST 2025,Thu Oct 09 23:26:19 IST 2025,GET,http://192.168.8.101:3000/socket.io,200,OK,46,469,75002
+7394,Thu Oct 09 23:26:20 IST 2025,Thu Oct 09 23:26:20 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=websocket&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,4,92,18
+7396,Thu Oct 09 23:26:20 IST 2025,Thu Oct 09 23:26:20 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKj-&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,5,230,41
+7398,Thu Oct 09 23:26:20 IST 2025,Thu Oct 09 23:26:20 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=websocket&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,11,92,18
+7400,Thu Oct 09 23:26:20 IST 2025,Thu Oct 09 23:26:20 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKhr,200,OK,12,230,96
+7402,Thu Oct 09 23:26:20 IST 2025,Thu Oct 09 23:26:20 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKj-&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,2,230,41
+7404,Thu Oct 09 23:26:20 IST 2025,Thu Oct 09 23:26:20 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=websocket&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,4,92,18
+7406,Thu Oct 09 23:26:20 IST 2025,Thu Oct 09 23:26:20 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKhr,200,OK,10,230,96
+7408,Thu Oct 09 23:26:20 IST 2025,Thu Oct 09 23:26:20 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKj-&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,3,230,41
+7410,Thu Oct 09 23:26:20 IST 2025,Thu Oct 09 23:26:20 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=websocket&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,5,92,18
+7412,Thu Oct 09 23:26:20 IST 2025,Thu Oct 09 23:26:20 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKhr,200,OK,4,230,96
+7414,Thu Oct 09 23:26:20 IST 2025,Thu Oct 09 23:26:20 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKj-&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,3,230,41
+7416,Thu Oct 09 23:26:20 IST 2025,Thu Oct 09 23:26:20 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=websocket&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,32,92,18
+7418,Thu Oct 09 23:26:20 IST 2025,Thu Oct 09 23:26:20 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKhr,200,OK,5,251,96
+7420,Thu Oct 09 23:26:21 IST 2025,Thu Oct 09 23:26:21 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKj-&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,8,230,41
+7422,Thu Oct 09 23:26:21 IST 2025,Thu Oct 09 23:26:21 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=websocket&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,39,92,18
+7424,Thu Oct 09 23:26:21 IST 2025,Thu Oct 09 23:26:21 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKhr,200,OK,18,230,96
+7426,Thu Oct 09 23:26:21 IST 2025,Thu Oct 09 23:26:21 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKj-&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,3,230,41
+7428,Thu Oct 09 23:26:21 IST 2025,Thu Oct 09 23:26:21 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=websocket&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,11,92,18
+7430,Thu Oct 09 23:26:21 IST 2025,Thu Oct 09 23:26:21 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKhr,200,OK,20,230,96
+7432,Thu Oct 09 23:26:21 IST 2025,Thu Oct 09 23:26:21 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=websocket&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,8,92,18
+7434,Thu Oct 09 23:26:21 IST 2025,Thu Oct 09 23:26:21 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKhr,200,OK,5,230,96
+7436,Thu Oct 09 23:26:21 IST 2025,Thu Oct 09 23:26:21 IST 2025,GET,http://192.168.8.101:3000/styles.css,200,OK,114,469,640162
+7437,Thu Oct 09 23:26:21 IST 2025,Thu Oct 09 23:26:21 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKhr,200,OK,3,230,96
+7439,Thu Oct 09 23:26:21 IST 2025,Thu Oct 09 23:26:21 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=websocket&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,10,92,18
+7441,Thu Oct 09 23:26:22 IST 2025,Thu Oct 09 23:26:22 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=websocket&sid=CWfaRYAgm9i8v88hAAAx,400,Bad Request,44,92,18
+7443,Thu Oct 09 23:26:22 IST 2025,Thu Oct 09 23:26:22 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKhr,200,OK,44,230,96
+7446,Thu Oct 09 23:26:22 IST 2025,Thu Oct 09 23:26:22 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKhr,200,OK,10,230,96
+7448,Thu Oct 09 23:26:22 IST 2025,Thu Oct 09 23:26:22 IST 2025,GET,http://192.168.8.101:3000/tutorial.js,200,OK,23,481,36237
+7445,Thu Oct 09 23:26:22 IST 2025,Thu Oct 09 23:26:22 IST 2025,GET,http://192.168.8.101:3000/styles.css,200,OK,237,469,640162
+7449,Thu Oct 09 23:26:22 IST 2025,Thu Oct 09 23:26:22 IST 2025,GET,http://192.168.8.101:3000/tutorial.js,200,OK,11,481,36237
+7450,Thu Oct 09 23:26:22 IST 2025,Thu Oct 09 23:26:22 IST 2025,GET,http://192.168.8.101:3000/tutorial.js,200,OK,15,481,36237
+7451,Thu Oct 09 23:26:22 IST 2025,Thu Oct 09 23:26:22 IST 2025,GET,http://192.168.8.101:3000/tutorial.js,200,OK,16,481,36237
+7452,Thu Oct 09 23:26:22 IST 2025,Thu Oct 09 23:26:22 IST 2025,GET,http://192.168.8.101:3000/tutorial.js,200,OK,14,481,36237
+7453,Thu Oct 09 23:26:22 IST 2025,Thu Oct 09 23:26:22 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKhr,200,OK,7,230,96
+7455,Thu Oct 09 23:26:22 IST 2025,Thu Oct 09 23:26:22 IST 2025,GET,http://192.168.8.101:3000/tutorial.js,200,OK,13,481,36237
+7456,Thu Oct 09 23:26:22 IST 2025,Thu Oct 09 23:26:22 IST 2025,GET,http://192.168.8.101:3000/styles.css,200,OK,84,469,640162
+7457,Thu Oct 09 23:26:22 IST 2025,Thu Oct 09 23:26:22 IST 2025,GET,http://192.168.8.101:3000/tutorial.js,200,OK,14,481,36237
+7458,Thu Oct 09 23:26:22 IST 2025,Thu Oct 09 23:26:22 IST 2025,GET,http://192.168.8.101:3000/tutorial.js,200,OK,35,481,36237
+7460,Thu Oct 09 23:26:22 IST 2025,Thu Oct 09 23:26:22 IST 2025,GET,http://192.168.8.101:3000/socket.io/?EIO=4&transport=polling&t=Pd9XKhr,200,OK,23,230,96
+7459,Thu Oct 09 23:26:22 IST 2025,Thu Oct 09 23:26:22 IST 2025,GET,http://192.168.8.101:3000/styles.css,200,OK,101,469,640162
+7462,Thu Oct 09 23:26:22 IST 2025,Thu Oct 09 23:26:22 IST 2025,GET,http://192.168.8.101:3000/tutorial.js,200,OK,10,481,36237
+7463,Thu Oct 09 23:26:23 IST 2025,Thu Oct 09 23:26:23 IST 2025,GET,http://192.168.8.101:3000/tutorial.js,200,OK,30,481,36237
+7464,Thu Oct 09 23:26:23 IST 2025,Thu Oct 09 23:26:23 IST 2025,GET,http://192.168.8.101:3000/tutorial.js,200,OK,30,481,36237
+7465,Thu Oct 09 23:26:23 IST 2025,Thu Oct 09 23:26:23 IST 2025,GET,http://192.168.8.101:3000/tutorial.js,200,OK,28,481,36237
+7466,Thu Oct 09 23:26:23 IST 2025,Thu Oct 09 23:26:23 IST 2025,GET,http://192.168.8.101:3000/styles.css,200,OK,204,469,640162
+7467,Thu Oct 09 23:26:23 IST 2025,Thu Oct 09 23:26:23 IST 2025,GET,http://192.168.8.101:3000/vendor.js,200,OK,348,485,1689033
+7469,Thu Oct 09 23:26:16 IST 2025,Thu Oct 09 23:26:24 IST 2025,GET,http://192.168.8.101:3000/rest/products/search?q=,200,OK,8007,389,13644
+7468,Thu Oct 09 23:26:23 IST 2025,Thu Oct 09 23:26:24 IST 2025,GET,http://192.168.8.101:3000/styles.css,200,OK,205,469,640162
+7470,Thu Oct 09 23:26:24 IST 2025,Thu Oct 09 23:26:24 IST 2025,GET,http://192.168.8.101:3000/styles.css,200,OK,170,469,640162
+7471,Thu Oct 09 23:26:24 IST 2025,Thu Oct 09 23:26:25 IST 2025,GET,http://192.168.8.101:3000/vendor.js,200,OK,362,485,1689033
+7472,Thu Oct 09 23:26:26 IST 2025,Thu Oct 09 23:26:26 IST 2025,GET,http://192.168.8.101:3000/styles.css,200,OK,87,469,640162
+7473,Thu Oct 09 23:26:26 IST 2025,Thu Oct 09 23:26:26 IST 2025,GET,http://192.168.8.101:3000/vendor.js,200,OK,169,485,1689033
+7474,Thu Oct 09 23:26:26 IST 2025,Thu Oct 09 23:26:26 IST 2025,GET,http://192.168.8.101:3000/styles.css,200,OK,144,469,640162
+7475,Thu Oct 09 23:26:27 IST 2025,Thu Oct 09 23:26:27 IST 2025,GET,http://192.168.8.101:3000/styles.css,200,OK,64,469,640162
+7476,Thu Oct 09 23:26:27 IST 2025,Thu Oct 09 23:26:27 IST 2025,GET,http://192.168.8.101:3000/styles.css,200,OK,50,469,640162
+7478,Thu Oct 09 23:26:27 IST 2025,Thu Oct 09 23:26:27 IST 2025,GET,http://192.168.8.101:3000/styles.css,200,OK,97,469,640162
+7477,Thu Oct 09 23:26:27 IST 2025,Thu Oct 09 23:26:27 IST 2025,GET,http://192.168.8.101:3000/vendor.js,200,OK,239,485,1689033
+7479,Thu Oct 09 23:26:27 IST 2025,Thu Oct 09 23:26:27 IST 2025,GET,http://192.168.8.101:3000/vendor.js,200,OK,127,485,1689033
+7480,Thu Oct 09 23:26:27 IST 2025,Thu Oct 09 23:26:27 IST 2025,GET,http://192.168.8.101:3000/vendor.js,200,OK,138,485,1689033
+7481,Thu Oct 09 23:26:27 IST 2025,Thu Oct 09 23:26:27 IST 2025,GET,http://192.168.8.101:3000/vendor.js,200,OK,62,485,1689033
+7482,Thu Oct 09 23:26:28 IST 2025,Thu Oct 09 23:26:28 IST 2025,GET,http://192.168.8.101:3000/vendor.js,200,OK,167,485,1689033
+7483,Thu Oct 09 23:26:28 IST 2025,Thu Oct 09 23:26:28 IST 2025,GET,http://192.168.8.101:3000/vendor.js,200,OK,103,485,1689033
+7485,Thu Oct 09 23:26:24 IST 2025,Thu Oct 09 23:26:29 IST 2025,GET,http://192.168.8.101:3000/rest/products/search?q=,200,OK,4725,389,13644
+7484,Thu Oct 09 23:26:28 IST 2025,Thu Oct 09 23:26:29 IST 2025,GET,http://192.168.8.101:3000/vendor.js,200,OK,681,485,1689033
+7486,Thu Oct 09 23:26:29 IST 2025,Thu Oct 09 23:26:29 IST 2025,GET,http://192.168.8.101:3000/vendor.js,200,OK,428,485,1689033
+7487,Thu Oct 09 23:26:29 IST 2025,Thu Oct 09 23:26:30 IST 2025,GET,http://192.168.8.101:3000/rest/products/search?q=,200,OK,968,389,13644
+7488,Thu Oct 09 23:26:30 IST 2025,Thu Oct 09 23:26:30 IST 2025,GET,http://192.168.8.101:3000/vendor.js,200,OK,462,485,1689033
+7489,Thu Oct 09 23:26:30 IST 2025,Thu Oct 09 23:26:30 IST 2025,GET,http://192.168.8.101:3000/rest/products/search?q=,200,OK,178,389,13644
+7490,Thu Oct 09 23:26:30 IST 2025,Thu Oct 09 23:26:30 IST 2025,GET,http://192.168.8.101:3000/rest/products/search?q=,200,OK,176,389,13644
+7491,Thu Oct 09 23:26:30 IST 2025,Thu Oct 09 23:26:30 IST 2025,GET,http://192.168.8.101:3000/rest/products/search?q=,200,OK,116,389,13644
+7492,Thu Oct 09 23:26:31 IST 2025,Thu Oct 09 23:26:31 IST 2025,GET,http://192.168.8.101:3000/rest/products/search?q=,200,OK,196,389,13644
+7493,Thu Oct 09 23:26:31 IST 2025,Thu Oct 09 23:26:31 IST 2025,GET,http://192.168.8.101:3000/rest/products/search?q=,200,OK,113,389,13644
+7494,Thu Oct 09 23:26:31 IST 2025,Thu Oct 09 23:26:31 IST 2025,GET,http://192.168.8.101:3000/rest/products/search?q=,200,OK,109,389,13644
+7495,Thu Oct 09 23:26:31 IST 2025,Thu Oct 09 23:26:31 IST 2025,GET,http://192.168.8.101:3000/rest/products/search?q=,200,OK,115,389,13644
+7496,Thu Oct 09 23:26:31 IST 2025,Thu Oct 09 23:26:31 IST 2025,GET,http://192.168.8.101:3000/rest/products/search?q=,200,OK,143,389,13644
+7497,Thu Oct 09 23:26:31 IST 2025,Thu Oct 09 23:26:31 IST 2025,GET,http://192.168.8.101:3000/rest/products/search?q=,200,OK,98,389,13644
+7498,Thu Oct 09 23:26:31 IST 2025,Thu Oct 09 23:26:31 IST 2025,GET,http://192.168.8.101:3000,200,OK,11,469,75002
+7499,Thu Oct 09 23:26:31 IST 2025,Thu Oct 09 23:26:31 IST 2025,GET,http://192.168.8.101:3000/api,500,Internal Server Error,41,363,1823
+7500,Thu Oct 09 23:26:31 IST 2025,Thu Oct 09 23:26:32 IST 2025,GET,http://192.168.8.101:3000/api/Challenges,200,OK,191,389,59080
+7501,Thu Oct 09 23:26:32 IST 2025,Thu Oct 09 23:26:32 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys,304,Not Modified,93,306,0
+7502,Thu Oct 09 23:26:32 IST 2025,Thu Oct 09 23:26:32 IST 2025,GET,http://192.168.8.101:3000/assets,301,Moved Permanently,11,416,156
+7503,Thu Oct 09 23:26:33 IST 2025,Thu Oct 09 23:26:33 IST 2025,GET,http://192.168.8.101:3000/assets/i18n,301,Moved Permanently,5,421,161
+7504,Thu Oct 09 23:26:33 IST 2025,Thu Oct 09 23:26:33 IST 2025,GET,http://192.168.8.101:3000/assets/public,301,Moved Permanently,8,423,163
+7505,Thu Oct 09 23:26:33 IST 2025,Thu Oct 09 23:26:33 IST 2025,GET,http://192.168.8.101:3000/assets/public/images,301,Moved Permanently,5,430,170
+7506,Thu Oct 09 23:26:33 IST 2025,Thu Oct 09 23:26:33 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products,301,Moved Permanently,5,439,179
+7507,Thu Oct 09 23:26:33 IST 2025,Thu Oct 09 23:26:33 IST 2025,GET,http://192.168.8.101:3000/rest,500,Internal Server Error,9,363,1825
+7508,Thu Oct 09 23:26:33 IST 2025,Thu Oct 09 23:26:33 IST 2025,GET,http://192.168.8.101:3000/rest/admin,500,Internal Server Error,16,363,1837
+7509,Thu Oct 09 23:26:33 IST 2025,Thu Oct 09 23:26:33 IST 2025,GET,http://192.168.8.101:3000/rest/products,500,Internal Server Error,12,363,1843
+7510,Thu Oct 09 23:26:33 IST 2025,Thu Oct 09 23:26:33 IST 2025,GET,http://192.168.8.101:3000/rest/products/1,500,Internal Server Error,10,363,1847
+7511,Thu Oct 09 23:26:33 IST 2025,Thu Oct 09 23:26:33 IST 2025,GET,http://192.168.8.101:3000/rest/user,500,Internal Server Error,14,363,1835
+7512,Thu Oct 09 23:26:33 IST 2025,Thu Oct 09 23:26:33 IST 2025,GET,http://192.168.8.101:3000/socket.io,200,OK,32,469,75002
+7513,Thu Oct 09 23:26:33 IST 2025,Thu Oct 09 23:26:33 IST 2025,GET,http://192.168.8.101:3000,200,OK,10,469,75002
+7514,Thu Oct 09 23:26:34 IST 2025,Thu Oct 09 23:26:34 IST 2025,GET,http://192.168.8.101:3000/api,500,Internal Server Error,8,363,1823
+7515,Thu Oct 09 23:26:34 IST 2025,Thu Oct 09 23:26:34 IST 2025,GET,http://192.168.8.101:3000/api/Challenges,200,OK,269,389,59080
+7516,Thu Oct 09 23:26:34 IST 2025,Thu Oct 09 23:26:34 IST 2025,GET,http://192.168.8.101:3000/api/Quantitys,304,Not Modified,132,306,0
+7517,Thu Oct 09 23:26:34 IST 2025,Thu Oct 09 23:26:34 IST 2025,GET,http://192.168.8.101:3000/assets,301,Moved Permanently,4,416,156
+7518,Thu Oct 09 23:26:34 IST 2025,Thu Oct 09 23:26:34 IST 2025,GET,http://192.168.8.101:3000/assets/i18n,301,Moved Permanently,4,421,161
+7519,Thu Oct 09 23:26:34 IST 2025,Thu Oct 09 23:26:34 IST 2025,GET,http://192.168.8.101:3000/assets/public,301,Moved Permanently,9,423,163
+7520,Thu Oct 09 23:26:34 IST 2025,Thu Oct 09 23:26:34 IST 2025,GET,http://192.168.8.101:3000/assets/public/images,301,Moved Permanently,9,430,170
+7521,Thu Oct 09 23:26:34 IST 2025,Thu Oct 09 23:26:34 IST 2025,GET,http://192.168.8.101:3000/assets/public/images/products,301,Moved Permanently,5,439,179
+7522,Thu Oct 09 23:26:34 IST 2025,Thu Oct 09 23:26:34 IST 2025,GET,http://192.168.8.101:3000/rest,500,Internal Server Error,10,363,1825
+7523,Thu Oct 09 23:26:34 IST 2025,Thu Oct 09 23:26:34 IST 2025,GET,http://192.168.8.101:3000/rest/admin,500,Internal Server Error,34,363,1837
+7524,Thu Oct 09 23:26:34 IST 2025,Thu Oct 09 23:26:35 IST 2025,GET,http://192.168.8.101:3000/rest/products,500,Internal Server Error,22,363,1843
+7525,Thu Oct 09 23:26:35 IST 2025,Thu Oct 09 23:26:35 IST 2025,GET,http://192.168.8.101:3000/rest/products/1,500,Internal Server Error,20,363,1847
+7526,Thu Oct 09 23:26:35 IST 2025,Thu Oct 09 23:26:35 IST 2025,GET,http://192.168.8.101:3000/rest/user,500,Internal Server Error,34,363,1835
+7527,Thu Oct 09 23:26:35 IST 2025,Thu Oct 09 23:26:35 IST 2025,GET,http://192.168.8.101:3000/socket.io,200,OK,75,469,75002

