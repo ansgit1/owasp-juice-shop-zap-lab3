@@ -43,5 +43,5 @@ This was to lab  learn ZAP basics: how to map an app, run scans, and understand 
 * How to map an app (site tree, spidering).
 * How to run ZAP scans (baseline, active, fuzzer).
 * How ZAP prioritizes alerts by color: **Red = High**, **Orange = Medium**, **Yellow = Low**, **Grey/White = Info**.
-* Importance of reproducing scanner alerts manually before reporting.
+  
 
